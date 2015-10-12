@@ -19,11 +19,11 @@
 
 <body>
 <div class="container guiaestilos">
-    <h2>AXTEL.mx WEB STYLE GUIDE 2015</h2>
+    <h2 class="texto-blanco">AXTEL.mx WEB STYLE GUIDE 2015</h2>
     <!-- /////// GUIA DE COLORES AXTEL /////// -->
     <div class="container">
         <div class="row">
-            <h3>COLOR</h3>
+            <h3 class="texto-blanco">COLOR</h3>
         </div>
         <div class="row row-fondoblanco">
             <div class="row">
@@ -131,16 +131,25 @@
     <!-- /////// TIPOGRAFIA /////// -->
     <div class="container">
         <div class="row">
-            <h3>Typography</h3>
+            <h3 class="texto-blanco">Typography</h3>
         </div><!-- /row -->
         <div class="row row-fondoblanco">
-            &nbsp;
+            <div class="col-md-12">
+                <p>General Typography: FF WEB DIN - LIGHT & BOLD</p>
+                <div class="col-md-12" style="background-color: #D1D3D4; margin-bottom: 12px;">&nbsp;</div>
+                <h1>H1 - <b>Large</b> header 72p - Light / <b>bold</b></h1>
+                <h2>H2 - Medium header - 36p Light</h2>
+                <h3>H3 - Moderate header - 24p Light</h3>
+                <h4>H4 - <b>Button</b> / Menu - <b>18p Bold</b> - 18p Regular</h4>
+                <h5>H5 - Navigation menu / Banner - 16p - Regular</h5>
+                <h6>H6 - Header bullet 16p - Light</h6>
+            </div>
         </div><!-- /row -->
     </div><!-- /container -->
     <!-- /////// BOTONES /////// -->
     <div class="container">
         <div class="row">
-            <h3>Button</h3>
+            <h3 class="texto-blanco">Button</h3>
         </div>
         <div class="row row-fondoblanco">
             <div class="col-xs-12 col-md-12">
@@ -149,8 +158,10 @@
                         <div class="row">
                             <div class="col-xs-6 col-md-6">
                                 <h5>Main call-to-action</h5>
-                                <button class="btn btn-axtel-main" type="button"><b>Normal</b></button><br/><br/>
-                                <a href="" class="btn btn-axtel-main" role="button"><b>Normal</b></a>
+                                <button class="btn btn-axtel-main" type="button"><h4><b>Normal</b></h4></button><br/><br/>
+                                <button class="btn btn-axtel-main" type="button" disabled="disabled"><h4><b>Normal</b></h4></button><br/><br/>
+                                <a href="" class="btn btn-axtel-main" role="button"><h4><b>Normal</b></h4></a><br/><br/>
+                                <a href="" class="btn btn-axtel-main disabled" role="button"><h4><b>Normal</b></h4></a>
                             </div>
                             <div class="col-xs-6 col-md-6">
                                 <h5>Alternative</h5>
@@ -225,7 +236,7 @@
                 <div class="row">
                     <div class="col-xs-6 col-md-6">
                         <h5>Button Bar</h5>
-                        <div class="axtel-btn-group" data-toggle="buttons">
+                        <div class="axtel-btn-group" role="group" data-toggle="buttons">
                             <button class="btn btn-axtel-secondary" type="button"><b>Button</b></button>
                             <button class="btn btn-axtel-secondary" type="button"><b>Option 2</b></button>
                             <button class="btn btn-axtel-secondary" type="button"><b>Option 3</b></button>
@@ -241,12 +252,16 @@
     <!-- /////// FORMS /////// -->
     <div class="container">
         <div class="row">
-            <h3>Forms</h3>
+            <h3 class="texto-blanco">Forms</h3>
         </div><!-- /row -->
         <div class="row row-fondoblanco">
             <div class="col-xs-12 col-md-6">
                 <div class="axtel-contentforms">
-                    <div class="axtel-headerforms"></div>
+                    <div class="axtel-headerforms">
+                        <p class="axtel-calltoactionforms">Call to action</p>
+                        <p class="axtel-maintitleforms">Main title</p>
+                        <p class="axtel-subtitleforms">Lorem ipsum dolor sit</p>
+                    </div>
                     <div class="axtel-jumbotronform">
                         <p class="axtel-instructionforms">Instructions</p>
                         <form>
@@ -254,42 +269,123 @@
                                 <label for="axtelInputName">Nombre</label>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" id="axtelInputName" placeholder="Nombre">
+                                        <input type="text" class="form-control" id="axtelInputName" placeholder="Nombre" required x-moz-errormessage="Please specify a valid email address.">
                                     </div>
                                     <div class="col-md-6">
                                         <input type="text" class="form-control" id="axtelInputApellido" placeholder="Apellido">
                                     </div>
                                 </div>
                             </div><!-- /form-group -->
+                            <label for="axtelInputWeb">Input with postfix label</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Miempresa">
-                                <div class="input-group-btn bs-dropdown-to-select-group">
-                                    <button type="button" class="btn btn-default dropdown-toggle as-is bs-dropdown-to-select btn-axtel-default" data-toggle="dropdown">
-                                        <span data-bind="bs-drp-sel-label">.COM</span>
-                                        <input type="hidden" name="selected_value" data-bind="bs-drp-sel-value" value="">
-                                        <span class="caret"></span>
-                                        <span class="sr-only">Toggle Dropdown</span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu" style="">
-                                        <li data-value="1"><a href="#">.COM</a></li>
-                                        <li data-value="2"><a href="#">.MX</a></li>
-                                        <li data-value="3"><a href="#">.COM.MX</a></li>
-                                    </ul>
-                                </div><!-- /btn-group -->
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Miempresa" id="axtelInputWeb">
+                                <select class="selectpicker" data-style="btn-axtel-default" style="display: none;">
+                                    <option>.COM</option>
+                                    <option>.MX</option>
+                                    <option>.COM.MX</option>
+                                </select>
                             </div><!-- /input-group -->
+                            <br/><br/>
+                            <h1 class="tit-seccionesformulario"><span>Fieldset Name</span></h1>
+                            <br/><br/>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="axtelInputNumero">Input with prefix label</label>
+                                    <div class="input-group">
+                                        <select class="selectpicker" data-style="btn-axtel-default" style="display: none;">
+                                            <option>CELULAR</option>
+                                            <option>CASA</option>
+                                            <option>TRABAJO</option>
+                                        </select>
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="555 555" id="axtelInputNumero">
+                                    </div><!-- /input-group -->
+                                </div><!-- /col-md-6 -->
+                                <div class="col-md-6">
+                                    <label>Entidad</label>
+                                    <select class="selectpicker" data-style="btn-axtel-default" style="display: none;">
+                                        <option>Baja California</option>
+                                        <option>Baja California Sur</option>
+                                        <option>Aguascalientes</option>
+                                    </select>
+                                </div><!-- /col-md-6 -->
+                            </div><!-- /row -->
+                            <br/>
+                            <div class="row">
+                                <div class="col-md-12 align-center">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-axtel-main" value="Enviar"/>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-md-6">
-                
+                <div class="row">
+                    <p>INPUTS</p>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="axtelInputApellido" placeholder="Apellido">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="axtelInputApellido" placeholder="Apellido">
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <p>DROP DOWN LABEL</p>
+                    <div class="col-md-6">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Action <span class="axtel-downarrow"></span>
+                            </button>
+                            <ul class="dropdown-menu axtel-dropdown-menu" style="display: block;">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-axtel-main" value="Enviar" disabled/>
+                        </div>
+                    </div>
+                </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>CHECKBOXES</p>
+                        <div class="checkbox checkbox-axtel checkbox-circle ">
+                            <input id="checkbox8" type="checkbox">
+                            <label for="checkbox8">Checkbox Axtel</label>
+                        </div>
+                        <div class="checkbox checkbox-axtel checkbox-circle ">
+                            <input id="checkbox9" type="checkbox" disabled>
+                            <label for="checkbox9">Checkbox Axtel Disabled</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>RADIO BUTTONS</p>
+                        <div class="radio radio-axtel">
+                            <input type="radio" name="radio1" id="radio1" value="option1">
+                            <label for="radio1">Small</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="radio1" id="radio2" value="option2" disabled>
+                            <label for="radio2">Big</label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div><!-- /row -->
     </div><!-- /container forms-->
     <!-- /////// ELEMENTS /////// -->
     <div class="container">
         <div class="row">
-            <h3>Elements</h3>
+            <h3 class="texto-blanco">ELEMENTS</h3>
         </div><!-- /row -->
         <div class="row row-fondoblanco">
             &nbsp;
@@ -298,7 +394,7 @@
     <!-- /////// ELEMENTS /////// -->
     <div class="container">
         <div class="row">
-            <h3>Elements</h3>
+            <h3 class="texto-blanco">GRID</h3>
         </div><!-- /row -->
         <div class="row row-fondoblanco">
             &nbsp;

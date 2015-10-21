@@ -989,3 +989,66 @@ $(window).load(function() {
 });
 
 //END //Cambia el estilo de los selects - BOOTSTRAPSELECT
+
+//BEGIN //Script para barra de paquetes de canales
+jQuery(document).ready(function($) {
+        $('#sliderpaquetes-axtelcanales').each(function(index, el){
+          //hide the element
+          $(el).addClass("sliderOn");
+          
+          //add the slider to each element
+          var slider = $( '<div class="sliderHolder"><div class="fakeslider"></div><div class=\'horizontalSlider\'></div></div>' ).insertAfter( el ).find(".horizontalSlider").slider({
+            min: 1,
+            max: el.options.length,
+            range: 'min',
+            value: el.selectedIndex + 1,
+            slide: function( event, ui ) {
+              el.selectedIndex = ui.value - 1;
+            }
+          });
+          
+          //Create a legend under the slider so we can see the options
+          var options = [];
+          for (var option in $(el).children())
+          {
+            if(!isNaN(parseInt(option)))
+            {
+              options.push(el.options[option].text);
+            }
+          }
+          //the width of each legend/option
+          var width = (slider.width() / (options.length - 1));
+          
+          //Add the legend. Half the width of the first and last options for display consistency.
+          slider.after('<div class="slider-legend"><p style="width:' + (width / 2) + 'px;text-align:left;">' + options.join('</p><p style="width:' + width + 'px;">') +'</p></div>').parent().find(".slider-legend p:last-child").css("width", width / 2).css("text-align", "right");
+          
+          //if there are too many options so that the text is wider than the width, then hide the text
+          var lastChild = slider.parent().find(".slider-legend p:last-child");
+          if(lastChild[0].clientWidth < lastChild[0].scrollWidth)
+          {
+            slider.parent().find(".slider-legend p").css("text-indent", '200%');
+          }
+          
+        });
+      });
+//END //Script para barra de paquetes de canales
+
+//BEGIN //Script para barra de paquetes de megas internet
+jQuery(document).ready(function($) {
+        $('#sliderpaquetes-axtelmegas').each(function(index, el){
+          //hide the element
+          $(el).addClass("sliderOn");
+          
+          //add the slider to each element
+          var slider = $( '<div class="sliderHolder"><div class="fakeslider slidermegas"></div><div class=\'horizontalSlider handmegas\'></div></div>' ).insertAfter( el ).find(".horizontalSlider").slider({
+            min: 1,
+            max: el.options.length,
+            range: 'min',
+            value: el.selectedIndex + 1,
+            slide: function( event, ui ) {
+              el.selectedIndex = ui.value - 1;
+            }
+          });
+        });
+      });
+//END //Script para barra de paquetes de megas internet

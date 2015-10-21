@@ -44,7 +44,36 @@
   font-weight: 600;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-regular-webfont.eot");
+  src: url("../fonts/lato-regular-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-bold-webfont.eot");
+  src: url("../fonts/lato-bold-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-bold-webfont.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-light-webfont.eot");
+  src: url("../fonts/lato-light-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-light-webfont.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'axteliconos';
+  src: url("../fonts/axteliconos.eot?1a83gn");
+  src: url("../fonts/axteliconos.eot?1a83gn#iefix") format("embedded-opentype"), url("../fonts/axteliconos.ttf?1a83gn") format("truetype"), url("../fonts/axteliconos.woff?1a83gn") format("woff"), url("../fonts/axteliconos.svg?1a83gn#axteliconos") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="span"] {
   float: none;
   display: inline-block;
@@ -52,72 +81,66 @@
   margin-left: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .form-search .bootstrap-select.btn-group, .form-inline .bootstrap-select.btn-group, .form-horizontal .bootstrap-select.btn-group {
   margin-bottom: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.form-control {
   margin-bottom: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group.pull-right, .bootstrap-select.btn-group[class*="span"].pull-right, .row-fluid .bootstrap-select.btn-group[class*="span"].pull-right {
   float: right;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .input-append .bootstrap-select.btn-group {
   margin-left: -1px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .input-prepend .bootstrap-select.btn-group {
   margin-right: -1px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
-.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
-  width: 220px;
-}
-
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
-.bootstrap-select {
-  width: 220px\0;
-}
-
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/*.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){width:220px}.bootstrap-select{width:220px\0}*/
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.form-control:not([class*="span"]) {
   width: 100%;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select > .btn {
-  width: 100%;
+  /*width:100%;*/
   padding-right: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 11px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .error .bootstrap-select .btn {
   border: 1px solid #b94a48;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.open > .btn {
   z-index: 2051;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select .btn:focus {
   outline: thin dotted #333 !important;
   outline: 5px auto -webkit-focus-ring-color !important;
   outline-offset: -2px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .btn .filter-option {
   display: inline-block;
   overflow: hidden;
@@ -126,7 +149,7 @@
   text-align: left;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .btn .axtel-downarrow {
   position: absolute;
   top: 25%;
@@ -135,22 +158,22 @@
   vertical-align: middle;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group > .disabled, .bootstrap-select.btn-group .dropdown-menu li.disabled > a {
   cursor: not-allowed;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group > .disabled:focus {
   outline: none !important;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group[class*="span"] .btn {
   width: 100%;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu {
   min-width: 100%;
   z-index: 2000;
@@ -159,7 +182,7 @@
   box-sizing: border-box;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu.inner {
   position: static;
   border: 0;
@@ -173,40 +196,40 @@
   box-shadow: none;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu dt {
   display: block;
   padding: 3px 20px;
   cursor: default;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .div-contain {
   overflow: hidden;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li {
   position: relative;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li > a.opt {
   position: relative;
   padding-left: 35px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li > a {
   cursor: pointer;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li > dt small {
   font-weight: normal;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark {
   position: absolute;
   display: inline-block;
@@ -214,47 +237,47 @@
   margin-top: 2.5px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li a i.check-mark {
   display: none;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text {
   margin-right: 34px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li small {
   padding-left: .5em;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li:not(.disabled) > a:hover small, .bootstrap-select.btn-group .dropdown-menu li:not(.disabled) > a:focus small, .bootstrap-select.btn-group .dropdown-menu li.active:not(.disabled) > a small {
   color: #64b1d8;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0);
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu li > dt small {
   font-weight: normal;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:before {
   content: '';
   display: inline-block;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #CCC;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: -4px;
   left: 9px;
   display: none;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:after {
   content: '';
   display: inline-block;
@@ -267,16 +290,16 @@
   display: none;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:before {
   bottom: auto;
   top: -3px;
   border-top: 7px solid #ccc;
   border-bottom: 0;
-  border-top-color: rgba(0, 0, 0, 0.2);
+  border-top-color: rgba(0, 0, 0, 0);
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:after {
   bottom: auto;
   top: -3px;
@@ -284,31 +307,31 @@
   border-bottom: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:before {
   right: 12px;
   left: auto;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:after {
   right: 13px;
   left: auto;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before, .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:after {
   display: block;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .no-results {
   padding: 3px;
   background: #f5f5f5;
   margin: 0 5px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group .dropdown-menu .notify {
   position: absolute;
   bottom: 5px;
@@ -318,7 +341,7 @@
   padding: 3px 5px;
   background: #f5f5f5;
   border: 1px solid #e3e3e3;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
   pointer-events: none;
   opacity: .9;
   -webkit-box-sizing: border-box;
@@ -326,7 +349,7 @@
   box-sizing: border-box;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .mobile-device {
   position: absolute;
   top: 0;
@@ -337,34 +360,34 @@
   opacity: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.fit-width {
   width: auto !important;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group.fit-width .btn .filter-option {
   position: static;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group.fit-width .btn .axtel-downarrow {
   position: static;
   top: auto;
   margin-top: -1px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .control-group.error .bootstrap-select .dropdown-toggle {
   border-color: #b94a48;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select-searchbox, .bootstrap-select .bs-actionsbox {
   padding: 4px 8px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select .bs-actionsbox {
   float: left;
   width: 100%;
@@ -373,22 +396,22 @@
   box-sizing: border-box;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select-searchbox + .bs-actionsbox {
   padding: 0 8px 4px;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select-searchbox input {
   margin-bottom: 0;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select .bs-actionsbox .btn-group button {
   width: 50%;
 }
 
-/* line 1, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_axtelselects.scss */
+/* line 1, ../scss/_axtelselects.scss */
 .bootstrap-select.btn-group > .btn:first-child {
   margin-left: 0;
   -webkit-border-top-right-radius: 0;
@@ -399,18 +422,18 @@
   border-bottom-right-radius: 0;
 }
 
-/* line 22, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 22, ../scss/_checkboxes.scss */
 .checkbox {
   padding-left: 20px;
 }
-/* line 25, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 25, ../scss/_checkboxes.scss */
 .checkbox label {
   display: inline-block;
   vertical-align: middle;
   position: relative;
   padding-left: 5px;
 }
-/* line 31, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 31, ../scss/_checkboxes.scss */
 .checkbox label::before {
   content: "";
   display: inline-block;
@@ -426,7 +449,7 @@
   -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
   transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
 }
-/* line 45, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 45, ../scss/_checkboxes.scss */
 .checkbox label::after {
   display: inline-block;
   position: absolute;
@@ -440,25 +463,25 @@
   font-size: 11px;
   color: #545454;
 }
-/* line 61, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 61, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"],
 .checkbox input[type="radio"] {
   opacity: 0;
   z-index: 1;
 }
-/* line 65, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 65, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"]:hover + label::before,
 .checkbox input[type="radio"]:hover + label::before {
   background-color: #58595b;
 }
-/* line 69, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 69, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"]:focus + label::before,
 .checkbox input[type="radio"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 73, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 73, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"]:checked + label::after,
 .checkbox input[type="radio"]:checked + label::after {
   /*font-family: $font-family-icon;
@@ -466,111 +489,112 @@
   top: 2px;
   left: 1px;
   content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9.834px" height="8.875px" viewBox="0 0 9.834 8.875" enable-background="new 0 0 9.834 8.875" xml:space="preserve"> <polygon fill="#FFFFFF" points="4.059,5.556 1.71,3.206 0.532,4.385 4.059,7.913 9.384,2.624 8.204,1.447 "/> </svg>');
+  content: url("../style-elements/axtel-check-icon.png");
 }
-/* line 81, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 82, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"]:disabled + label,
 .checkbox input[type="radio"]:disabled + label {
   opacity: 0.65;
 }
-/* line 84, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 85, ../scss/_checkboxes.scss */
 .checkbox input[type="checkbox"]:disabled + label::before,
 .checkbox input[type="radio"]:disabled + label::before {
   background-color: #ededed;
   cursor: not-allowed;
 }
-/* line 92, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 93, ../scss/_checkboxes.scss */
 .checkbox.checkbox-circle label::before {
   border-radius: 50%;
 }
-/* line 96, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 97, ../scss/_checkboxes.scss */
 .checkbox.checkbox-inline {
   margin-top: 0;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-primary input[type="checkbox"]:checked + label::before,
 .checkbox-primary input[type="radio"]:checked + label::before {
   background-color: #347cb9;
   border-color: #347cb9;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-primary input[type="checkbox"]:checked + label::after,
 .checkbox-primary input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-danger input[type="checkbox"]:checked + label::before,
 .checkbox-danger input[type="radio"]:checked + label::before {
   background-color: #d9534f;
   border-color: #d9534f;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-danger input[type="checkbox"]:checked + label::after,
 .checkbox-danger input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-info input[type="checkbox"]:checked + label::before,
 .checkbox-info input[type="radio"]:checked + label::before {
   background-color: #5bc0de;
   border-color: #5bc0de;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-info input[type="checkbox"]:checked + label::after,
 .checkbox-info input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-warning input[type="checkbox"]:checked + label::before,
 .checkbox-warning input[type="radio"]:checked + label::before {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-warning input[type="checkbox"]:checked + label::after,
 .checkbox-warning input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-success input[type="checkbox"]:checked + label::before,
 .checkbox-success input[type="radio"]:checked + label::before {
   background-color: #5cb85c;
   border-color: #5cb85c;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-success input[type="checkbox"]:checked + label::after,
 .checkbox-success input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 11, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 11, ../scss/_checkboxes.scss */
 .checkbox-axtel input[type="checkbox"]:checked + label::before,
 .checkbox-axtel input[type="radio"]:checked + label::before {
   background-color: #ae2033;
   border-color: #ae2033;
 }
-/* line 15, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 15, ../scss/_checkboxes.scss */
 .checkbox-axtel input[type="checkbox"]:checked + label::after,
 .checkbox-axtel input[type="radio"]:checked + label::after {
   color: #fff;
 }
 
-/* line 130, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 131, ../scss/_checkboxes.scss */
 .radio {
   padding-left: 20px;
 }
-/* line 133, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 134, ../scss/_checkboxes.scss */
 .radio label {
   display: inline-block;
   vertical-align: middle;
   position: relative;
   padding-left: 5px;
 }
-/* line 139, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 140, ../scss/_checkboxes.scss */
 .radio label::before {
   content: "";
   display: inline-block;
@@ -586,7 +610,7 @@
   -o-transition: border 0.15s ease-in-out;
   transition: border 0.15s ease-in-out;
 }
-/* line 153, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 154, ../scss/_checkboxes.scss */
 .radio label::after {
   display: inline-block;
   position: absolute;
@@ -607,358 +631,662 @@
   -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
   transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
 }
-/* line 171, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 172, ../scss/_checkboxes.scss */
 .radio input[type="radio"] {
   opacity: 0;
   z-index: 1;
 }
-/* line 175, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 176, ../scss/_checkboxes.scss */
 .radio input[type="radio"]:hover + label::before {
   background-color: #58595b;
 }
-/* line 179, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 180, ../scss/_checkboxes.scss */
 .radio input[type="radio"]:focus + label::before {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 183, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 184, ../scss/_checkboxes.scss */
 .radio input[type="radio"]:checked + label::after {
   -webkit-transform: scale(0.7, 0.7);
   -ms-transform: scale(0.7, 0.7);
   -o-transform: scale(0.7, 0.7);
   transform: scale(0.7, 0.7);
 }
-/* line 187, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 188, ../scss/_checkboxes.scss */
 .radio input[type="radio"]:disabled + label {
   opacity: 0.65;
 }
-/* line 190, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 191, ../scss/_checkboxes.scss */
 .radio input[type="radio"]:disabled + label::before {
   cursor: not-allowed;
 }
-/* line 197, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 198, ../scss/_checkboxes.scss */
 .radio.radio-inline {
   margin-top: 0;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-primary input[type="radio"] + label::after {
   background-color: #347cb9;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-primary input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-primary input[type="radio"]:checked + label::after {
   background-color: #347cb9;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-danger input[type="radio"] + label::after {
   background-color: #d9534f;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-danger input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-danger input[type="radio"]:checked + label::after {
   background-color: #d9534f;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-info input[type="radio"] + label::after {
   background-color: #5bc0de;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-info input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-info input[type="radio"]:checked + label::after {
   background-color: #5bc0de;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-warning input[type="radio"] + label::after {
   background-color: #f0ad4e;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-warning input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-warning input[type="radio"]:checked + label::after {
   background-color: #f0ad4e;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-success input[type="radio"] + label::after {
   background-color: #5cb85c;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-success input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-success input[type="radio"]:checked + label::after {
   background-color: #5cb85c;
 }
 
-/* line 115, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 116, ../scss/_checkboxes.scss */
 .radio-axtel input[type="radio"] + label::after {
   background-color: #fedd38;
 }
-/* line 119, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 120, ../scss/_checkboxes.scss */
 .radio-axtel input[type="radio"]:checked + label {
   /*&::before {
     border-color: $color;
   }*/
 }
-/* line 123, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 124, ../scss/_checkboxes.scss */
 .radio-axtel input[type="radio"]:checked + label::after {
   background-color: #fedd38;
 }
 
-/* line 212, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 213, ../scss/_checkboxes.scss */
 input[type="checkbox"].styled:checked + label:after,
 input[type="radio"].styled:checked + label:after {
   font-family: 'FontAwesome';
   content: "\f00c";
 }
-/* line 217, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 218, ../scss/_checkboxes.scss */
 input[type="checkbox"] .styled:checked + label::before,
 input[type="radio"] .styled:checked + label::before {
   color: #fff;
 }
-/* line 220, /Applications/AMPPS/www/estilos_axtel2015/assets/scss/../scss/_checkboxes.scss */
+/* line 221, ../scss/_checkboxes.scss */
 input[type="checkbox"] .styled:checked + label::after,
 input[type="radio"] .styled:checked + label::after {
   color: #fff;
 }
 
-/* line 11, ../scss/guiaestilos_axtel2015.scss */
-body {
-  background-color: #262626;
-  font-family: "Din";
+/* line 3, ../scss/_slider-paquetes.scss */
+.sliderOn {
+  display: none;
 }
 
-/* line 16, ../scss/guiaestilos_axtel2015.scss */
+/* line 7, ../scss/_slider-paquetes.scss */
+#slider {
+  font-size: 1px;
+  height: 246px;
+  position: absolute;
+  right: 23px;
+  top: 18px;
+}
+
+/* line 15, ../scss/_slider-paquetes.scss */
+.jquerySliderActive {
+  overflow: hidden !important;
+}
+
+/* line 18, ../scss/_slider-paquetes.scss */
+.sliderHolder {
+  width: 100%;
+  margin-left: -20px;
+  padding-left: 24px;
+  padding-top: 25px;
+  float: left;
+}
+/* line 25, ../scss/_slider-paquetes.scss */
+.sliderHolder p + p {
+  line-height: 1.5em;
+}
+/* line 29, ../scss/_slider-paquetes.scss */
+.sliderHolder p {
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  top: 10px;
+}
+/* line 36, ../scss/_slider-paquetes.scss */
+.sliderHolder .slider-legend {
+  margin-left: 17%;
+  margin-top: 46px;
+}
+/* line 40, ../scss/_slider-paquetes.scss */
+.sliderHolder .slider-legend p {
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 49, ../scss/_slider-paquetes.scss */
+.horizontalSlider {
+  height: 9px !important;
+  width: 83%;
+  background-color: #e7e7e9;
+  float: left;
+  -webkit-transition: all 0.6 ease;
+  -o-transition: all 0.6 ease;
+  transition: all 0.6 ease;
+}
+/* line 56, ../scss/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle {
+  /*background: url("../style-elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;*/
+  border: medium none;
+  border-radius: 0 0 0 0;
+  display: block;
+  height: 65px;
+  margin-left: -35px;
+  padding: 8px 0 0;
+  position: relative;
+  top: -39px;
+  width: 59px;
+  -webkit-transition: all 0.6 ease;
+  -o-transition: all 0.6 ease;
+  transition: all 0.6 ease;
+}
+/* line 69, ../scss/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle:hover, .horizontalSlider span.ui-slider-handle:active {
+  background: url("../style-elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;
+}
+/* line 72, ../scss/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle:focus {
+  outline: none;
+}
+/* line 79, ../scss/_slider-paquetes.scss */
+.horizontalSlider.handmegas span.ui-slider-handle:hover, .horizontalSlider.handmegas span.ui-slider-handle:active {
+  background: url("../style-elements/axtel-paqmegas-handle.png") no-repeat scroll top center transparent;
+}
+
+/* line 87, ../scss/_slider-paquetes.scss */
+.horizontalSlider.ui-slider-horizontal .ui-slider-range-min {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #fd5656;
+  height: 9px;
+  float: left;
+}
+
+/* line 95, ../scss/_slider-paquetes.scss */
+.horizontalSlider.handmegas.ui-slider-horizontal .ui-slider-range-min {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #000000;
+  height: 9px;
+  float: left;
+}
+
+/* line 102, ../scss/_slider-paquetes.scss */
+.fakeslider {
+  width: 17%;
+  height: 9px;
+  background: #fd5656;
+  float: left;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+/* line 108, ../scss/_slider-paquetes.scss */
+.fakeslider.slidermegas {
+  background: #000000 !important;
+}
+
+/* line 12, ../scss/guiaestilos_axtel2015.scss */
+body {
+  background-color: #262626;
+  font-family: "DIN";
+}
+
+/* line 17, ../scss/guiaestilos_axtel2015.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
-/* line 19, ../scss/guiaestilos_axtel2015.scss */
+/* line 20, ../scss/guiaestilos_axtel2015.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 22, ../scss/guiaestilos_axtel2015.scss */
+/* line 23, ../scss/guiaestilos_axtel2015.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Din";
+}
+
+/* line 25, ../scss/guiaestilos_axtel2015.scss */
 h1 {
-  font-size: 60px;
+  font-size: 72px;
   font-weight: 100;
 }
 
-/* line 27, ../scss/guiaestilos_axtel2015.scss */
+/* line 30, ../scss/guiaestilos_axtel2015.scss */
 h2 {
-  font-size: 31px;
+  font-size: 36px;
   font-weight: 100;
 }
 
-/* line 32, ../scss/guiaestilos_axtel2015.scss */
+/* line 35, ../scss/guiaestilos_axtel2015.scss */
 h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 100;
 }
 
-/* line 37, ../scss/guiaestilos_axtel2015.scss */
+/* line 40, ../scss/guiaestilos_axtel2015.scss */
 h4 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
 }
 
-/* line 42, ../scss/guiaestilos_axtel2015.scss */
+/* line 45, ../scss/guiaestilos_axtel2015.scss */
 h5 {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
 }
 
-/* line 47, ../scss/guiaestilos_axtel2015.scss */
+/* line 50, ../scss/guiaestilos_axtel2015.scss */
 h6 {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
 }
 
-/* line 52, ../scss/guiaestilos_axtel2015.scss */
+/* line 56, ../scss/guiaestilos_axtel2015.scss */
+p.header-p {
+  font-size: 36px;
+}
+/* line 59, ../scss/guiaestilos_axtel2015.scss */
+p.short-p {
+  font-size: 16px;
+  color: #a7a9ac;
+}
+/* line 63, ../scss/guiaestilos_axtel2015.scss */
+p.long-p {
+  font-size: 14px;
+}
+/* line 66, ../scss/guiaestilos_axtel2015.scss */
+p.smalltext-p {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/*** FONT ICON AXTEL - CLASSES ***/
+/* line 73, ../scss/guiaestilos_axtel2015.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'axteliconos';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 88, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-check-icon:before {
+  font-family: 'axteliconos';
+  content: "\e800";
+}
+
+/* line 92, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-deletebtn-icon:before {
+  font-family: 'axteliconos';
+  content: "\e801";
+}
+
+/* line 96, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-downarrow-icon:before {
+  font-family: 'axteliconos';
+  content: "\e802";
+}
+
+/* line 100, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-downloadbtn-icon:before, .btn-axtel-download:before, .btn-axtel-submit:before, .btn-axtel-login:before, .btn-axtel-delete:before {
+  font-family: 'axteliconos';
+  content: "\e803";
+}
+
+/* line 104, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-loginbtn-icon:before {
+  font-family: 'axteliconos';
+  content: "\e804";
+}
+
+/* line 109, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-minusbtn-icon .path1:before {
+  font-family: 'axteliconos';
+  font-size: 29px;
+  content: "\e805";
+  color: #c42032;
+}
+
+/* line 115, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-minusbtn-icon .path2:before {
+  font-family: 'axteliconos';
+  font-size: 29px;
+  content: "\e806";
+  margin-left: -0.99414em;
+  color: white;
+}
+
+/* line 122, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-plusbtn-icon .path1:before {
+  font-family: 'axteliconos';
+  font-size: 29px;
+  content: "\e807";
+  color: #c42032;
+}
+
+/* line 128, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-plusbtn-icon .path2:before {
+  font-family: 'axteliconos';
+  font-size: 29px;
+  content: "\e808";
+  margin-left: -0.99707em;
+  color: white;
+}
+
+/* line 135, ../scss/guiaestilos_axtel2015.scss */
+.icon-axtel-submitbtn-icon:before {
+  font-family: 'axteliconos';
+  content: "\e809";
+}
+
+/* line 139, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoamarillo-icon .path1:before {
+  font-family: 'axteliconos';
+  content: "\e80a";
+  color: #121212;
+}
+
+/* line 144, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoamarillo-icon .path2:before {
+  font-family: 'axteliconos';
+  content: "\e80b";
+  margin-left: -1em;
+  color: #ffcf05;
+}
+
+/* line 150, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoblanco-icon .path1:before {
+  font-family: 'axteliconos';
+  content: "\e80c";
+  color: #121212;
+}
+
+/* line 155, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoblanco-icon .path2:before {
+  font-family: 'axteliconos';
+  content: "\e80d";
+  margin-left: -0.99023em;
+  color: white;
+}
+
+/* line 161, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntorojo-icon .path1:before {
+  font-family: 'axteliconos';
+  content: "\e80e";
+  color: #121212;
+}
+
+/* line 166, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntorojo-icon .path2:before {
+  font-family: 'axteliconos';
+  content: "\e80f";
+  margin-left: -0.96387em;
+  color: #c42032;
+}
+
+/* line 172, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoverde-icon .path1:before {
+  font-family: 'axteliconos';
+  content: "\e810";
+  color: #121212;
+}
+
+/* line 177, ../scss/guiaestilos_axtel2015.scss */
+.icon-puntoverde-icon .path2:before {
+  font-family: 'axteliconos';
+  content: "\e811";
+  margin-left: -1em;
+  color: #6ebe44;
+}
+
+/*** END FONT ICON AXTEL - CLASES ***/
+/* line 186, ../scss/guiaestilos_axtel2015.scss */
 .row-fondoblanco {
   background-color: #ffffff;
   padding: 10px 5px 15px;
 }
 
-/* line 57, ../scss/guiaestilos_axtel2015.scss */
+/* line 191, ../scss/guiaestilos_axtel2015.scss */
 .texto-blanco {
   color: #ffffff;
 }
 
-/* line 61, ../scss/guiaestilos_axtel2015.scss */
+/* line 195, ../scss/guiaestilos_axtel2015.scss */
 .padding-topbottom {
   padding-top: 5px;
   padding-bottom: 12px;
 }
 
 /*****CASA COLORS*****/
-/* line 67, ../scss/guiaestilos_axtel2015.scss */
+/* line 201, ../scss/guiaestilos_axtel2015.scss */
 .casa-primary-color {
   background-color: #c42032;
 }
 
-/* line 71, ../scss/guiaestilos_axtel2015.scss */
+/* line 205, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondarya-color {
   background-color: #ae2033;
 }
 
-/* line 75, ../scss/guiaestilos_axtel2015.scss */
+/* line 209, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondaryb-color {
   background-color: #861627;
 }
 
-/* line 79, ../scss/guiaestilos_axtel2015.scss */
+/* line 213, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondaryc-color {
   background-color: #5b0d00;
 }
 
-/* line 83, ../scss/guiaestilos_axtel2015.scss */
+/* line 217, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondaryd-color {
   background-color: #b81e2e;
 }
 
-/* line 87, ../scss/guiaestilos_axtel2015.scss */
+/* line 221, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondarye-color {
   background-color: #fe5757;
 }
 
-/* line 91, ../scss/guiaestilos_axtel2015.scss */
+/* line 225, ../scss/guiaestilos_axtel2015.scss */
 .casa-secondaryf-color {
   background-color: #fe8181;
 }
 
 /*****EMPRESAS COLORS*****/
-/* line 96, ../scss/guiaestilos_axtel2015.scss */
+/* line 230, ../scss/guiaestilos_axtel2015.scss */
 .empresa-primary-color {
   background-color: #414042;
 }
 
-/* line 100, ../scss/guiaestilos_axtel2015.scss */
+/* line 234, ../scss/guiaestilos_axtel2015.scss */
 .empresa-primarya-color {
   background-color: #333333;
 }
 
-/* line 104, ../scss/guiaestilos_axtel2015.scss */
+/* line 238, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondarya-color {
   background-color: #58595b;
 }
 
-/* line 108, ../scss/guiaestilos_axtel2015.scss */
+/* line 242, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondaryb-color {
   background-color: #6d6e71;
 }
 
-/* line 112, ../scss/guiaestilos_axtel2015.scss */
+/* line 246, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondaryc-color {
   background-color: #939598;
 }
 
-/* line 116, ../scss/guiaestilos_axtel2015.scss */
+/* line 250, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondaryd-color {
   background-color: #a7a9ac;
 }
 
-/* line 120, ../scss/guiaestilos_axtel2015.scss */
+/* line 254, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondarye-color {
   background-color: #d1d3d4;
   color: #939598;
 }
 
-/* line 125, ../scss/guiaestilos_axtel2015.scss */
+/* line 259, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondaryf-color {
   background-color: #e6e7e8;
   color: #939598;
 }
 
-/* line 130, ../scss/guiaestilos_axtel2015.scss */
+/* line 264, ../scss/guiaestilos_axtel2015.scss */
 .empresa-secondaryg-color {
   background-color: #f1f2f2;
   color: #939598;
 }
 
 /***NEGOCIOS COLORS***/
-/* line 136, ../scss/guiaestilos_axtel2015.scss */
+/* line 270, ../scss/guiaestilos_axtel2015.scss */
 .negocio-primary-color {
   background-color: #808285;
 }
 
-/* line 140, ../scss/guiaestilos_axtel2015.scss */
+/* line 274, ../scss/guiaestilos_axtel2015.scss */
 .negocio-secondary-color {
   background-color: #fedd38;
   color: #939598;
 }
 
 /***GOBIERNO COLORS***/
-/* line 146, ../scss/guiaestilos_axtel2015.scss */
+/* line 280, ../scss/guiaestilos_axtel2015.scss */
 .gobierno-primary-color {
   background-color: #d1d3d4;
   color: #939598;
 }
 
-/* line 151, ../scss/guiaestilos_axtel2015.scss */
+/* line 285, ../scss/guiaestilos_axtel2015.scss */
 .gobierno-secondarya-color {
   background-color: #d6dccc;
   color: #939598;
 }
 
-/* line 156, ../scss/guiaestilos_axtel2015.scss */
+/* line 290, ../scss/guiaestilos_axtel2015.scss */
 .gobierno-secondaryb-color {
   background-color: #dee7eb;
   color: #939598;
 }
 
-/* line 161, ../scss/guiaestilos_axtel2015.scss */
+/* line 295, ../scss/guiaestilos_axtel2015.scss */
 .gobierno-secondaryc-color {
   background-color: #ffffeb;
   color: #939598;
 }
 
 /*****ICONOS-BOTONES*****/
-/* line 168, ../scss/guiaestilos_axtel2015.scss */
+/* line 302, ../scss/guiaestilos_axtel2015.scss */
 .btn h4 {
   margin-bottom: 3px;
   margin-top: 3px;
 }
 
 /*****BOTONES*****/
-/* line 176, ../scss/guiaestilos_axtel2015.scss */
+/* line 310, ../scss/guiaestilos_axtel2015.scss */
+.btn {
+  font-family: "DIN";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 312, ../scss/guiaestilos_axtel2015.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   background-color: #939598;
+  background-image: url("../style-elements/axtel-deletebtn.png") !important;
 }
-/* line 179, ../scss/guiaestilos_axtel2015.scss */
+/* line 316, ../scss/guiaestilos_axtel2015.scss */
 .btn.disabled:hover, .btn[disabled]:hover, fieldset[disabled] .btn:hover {
   background-color: #939598;
+  background-image: url("../style-elements/axtel-deletebtn.png") !important;
 }
 
-/* line 182, ../scss/guiaestilos_axtel2015.scss */
+/* line 322, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-main, .btn-axtel-alternative, .btn-axtel-darkbg, .btn-axtel-redbg, .btn-axtel-secondary, .btn-axtel-pinkbg {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -971,61 +1299,61 @@ h6 {
   padding: 10px 46px;
   font-weight: bold;
 }
-/* line 188, ../scss/guiaestilos_axtel2015.scss */
+/* line 328, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-main:hover, .btn-axtel-alternative:hover, .btn-axtel-darkbg:hover, .btn-axtel-redbg:hover, .btn-axtel-secondary:hover, .btn-axtel-pinkbg:hover {
   background-color: #ffcc00;
 }
-/* line 191, ../scss/guiaestilos_axtel2015.scss */
+/* line 331, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-main:active, .btn-axtel-alternative:active, .btn-axtel-darkbg:active, .btn-axtel-redbg:active, .btn-axtel-secondary:active, .btn-axtel-pinkbg:active {
   background-color: #ffffeb;
   border: 1px solid #fedd38;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 196, ../scss/guiaestilos_axtel2015.scss */
+/* line 336, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-main:focus, .btn-axtel-alternative:focus, .btn-axtel-darkbg:focus, .btn-axtel-redbg:focus, .btn-axtel-secondary:focus, .btn-axtel-pinkbg:focus, .btn-axtel-main:active:focus, .btn-axtel-alternative:active:focus, .btn-axtel-darkbg:active:focus, .btn-axtel-redbg:active:focus, .btn-axtel-secondary:active:focus, .btn-axtel-pinkbg:active:focus {
   outline: none;
 }
 
-/* line 201, ../scss/guiaestilos_axtel2015.scss */
+/* line 341, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-alternative, .btn-axtel-darkbg {
   background-color: #414042;
   color: #ffffff;
 }
-/* line 205, ../scss/guiaestilos_axtel2015.scss */
+/* line 345, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-alternative:hover, .btn-axtel-darkbg:hover {
   background-color: #6d6e71;
   color: #ffffff;
 }
-/* line 209, ../scss/guiaestilos_axtel2015.scss */
+/* line 349, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-alternative:active, .btn-axtel-darkbg:active {
   color: #ffffff;
   background-color: #414042;
   border-color: #414042;
 }
-/* line 214, ../scss/guiaestilos_axtel2015.scss */
+/* line 354, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-alternative:focus, .btn-axtel-darkbg:focus {
   color: #ffffff;
 }
 
-/* line 219, ../scss/guiaestilos_axtel2015.scss */
+/* line 359, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-darkbg {
   background-color: #343335;
   border: 1px solid #4f4e50;
   color: #ffffff;
 }
-/* line 224, ../scss/guiaestilos_axtel2015.scss */
+/* line 364, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-darkbg:hover {
   background-color: #3a393b;
   border: 1px solid #494849;
 }
-/* line 228, ../scss/guiaestilos_axtel2015.scss */
+/* line 368, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-darkbg:active {
   background-color: #2d2d2e;
   border: 1px solid #555456;
 }
 
-/* line 234, ../scss/guiaestilos_axtel2015.scss */
+/* line 374, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-rect {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1039,59 +1367,59 @@ h6 {
   border: 1px solid #c23b4a;
   padding: 10px 46px;
 }
-/* line 241, ../scss/guiaestilos_axtel2015.scss */
+/* line 381, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-rect:hover {
   background-color: #b01d2d;
   color: #ffffff;
 }
-/* line 245, ../scss/guiaestilos_axtel2015.scss */
+/* line 385, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-rect:active {
   background-color: #891623;
   box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 250, ../scss/guiaestilos_axtel2015.scss */
+/* line 390, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-rect:focus, .btn-axtel-rect:active:focus {
   outline: none;
   color: #ffffff;
 }
 
-/* line 256, ../scss/guiaestilos_axtel2015.scss */
+/* line 396, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-redbg {
   background-color: #ffffff;
 }
-/* line 259, ../scss/guiaestilos_axtel2015.scss */
+/* line 399, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-redbg:hover {
   background-color: #fe8181;
 }
-/* line 262, ../scss/guiaestilos_axtel2015.scss */
+/* line 402, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-redbg:active {
   background-color: #fe5757;
   border: 1px solid #fe5757;
 }
 
-/* line 268, ../scss/guiaestilos_axtel2015.scss */
+/* line 408, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-secondary {
   background-color: #c42032;
   color: #ffffff;
 }
-/* line 272, ../scss/guiaestilos_axtel2015.scss */
+/* line 412, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-secondary:hover {
   background-color: #ae2033;
   color: #ffffff;
 }
-/* line 276, ../scss/guiaestilos_axtel2015.scss */
+/* line 416, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-secondary:active {
   background-color: #861627;
   border: 1px solid #861627;
 }
-/* line 280, ../scss/guiaestilos_axtel2015.scss */
+/* line 420, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-secondary:focus, .btn-axtel-secondary:active:focus {
   color: #ffffff;
 }
 
-/* line 285, ../scss/guiaestilos_axtel2015.scss */
+/* line 425, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-download, .btn-axtel-submit, .btn-axtel-login, .btn-axtel-delete {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -1104,139 +1432,122 @@ h6 {
   background-color: #fe5757;
   font-weight: bold;
 }
-/* line 291, ../scss/guiaestilos_axtel2015.scss */
+/* line 432, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-download:before, .btn-axtel-submit:before, .btn-axtel-login:before, .btn-axtel-delete:before {
-  content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.917px" height="13.083px" viewBox="0 0 12.917 13.083" enable-background="new 0 0 12.917 13.083" xml:space="preserve"> <path fill="#FFFFFF" d="M6.387,0.362c-3.406,0-6.168,2.761-6.168,6.167c0,3.406,2.762,6.167,6.168,6.167 c3.405,0,6.166-2.761,6.166-6.167C12.553,3.123,9.792,0.362,6.387,0.362z M6.387,11.195c-2.578,0-4.668-2.089-4.668-4.667 c0-2.578,2.09-4.667,4.668-4.667c2.577,0,4.666,2.089,4.666,4.667C11.053,9.106,8.964,11.195,6.387,11.195z"/> <polygon fill="#FFFFFF" points="6.305,7.338 3.927,4.959 2.911,5.975 6.305,9.368 9.83,5.844 8.813,4.829"/> </svg>');
+  font-weight: normal;
+  color: #ffffff;
+  margin-left: -22px;
 }
-/* line 294, ../scss/guiaestilos_axtel2015.scss */
+/* line 437, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-download:hover, .btn-axtel-submit:hover, .btn-axtel-login:hover, .btn-axtel-delete:hover, .btn-axtel-download:active, .btn-axtel-submit:active, .btn-axtel-login:active, .btn-axtel-delete:active {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 297, ../scss/guiaestilos_axtel2015.scss */
+/* line 440, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-download:focus, .btn-axtel-submit:focus, .btn-axtel-login:focus, .btn-axtel-delete:focus, .btn-axtel-download:active:focus, .btn-axtel-submit:active:focus, .btn-axtel-login:active:focus, .btn-axtel-delete:active:focus {
   outline: none;
 }
 
-/* line 303, ../scss/guiaestilos_axtel2015.scss */
+/* line 446, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-submit {
   background-color: #fe8181;
   color: #ffffff;
 }
-/* line 307, ../scss/guiaestilos_axtel2015.scss */
+/* line 450, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-submit:before {
-  content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.583px" height="12.709px" viewBox="0 0 12.583 12.709" enable-background="new 0 0 12.583 12.709" xml:space="preserve"> <path fill="#FFFFFF" d="M6.303,0.219c-3.406,0-6.168,2.761-6.168,6.167c0,3.406,2.762,6.167,6.168,6.167 c3.405,0,6.166-2.761,6.166-6.167C12.469,2.98,9.708,0.219,6.303,0.219z M6.303,11.053c-2.578,0-4.668-2.089-4.668-4.667 c0-2.578,2.09-4.667,4.668-4.667c2.577,0,4.666,2.089,4.666,4.667C10.969,8.964,8.88,11.053,6.303,11.053z"/> <polygon fill="#FFFFFF" points="5.596,6.695 4.031,5.129 3.015,6.145 5.596,8.726 9.121,5.202 8.105,4.187"/> </svg>');
+  content: "\e809";
+  color: #ffffff;
 }
-/* line 310, ../scss/guiaestilos_axtel2015.scss */
+/* line 454, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-submit:hover, .btn-axtel-submit:active {
   color: #ffffff;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 314, ../scss/guiaestilos_axtel2015.scss */
+/* line 458, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-submit:focus, .btn-axtel-submit:active:focus {
   outline: none;
   color: #ffffff;
 }
 
-/* line 320, ../scss/guiaestilos_axtel2015.scss */
+/* line 464, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-login {
   background-color: #fedd38;
 }
-/* line 323, ../scss/guiaestilos_axtel2015.scss */
+/* line 467, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-login:before {
-  content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13.094px" height="12.573px" viewBox="0 0 13.094 12.573" enable-background="new 0 0 13.094 12.573" xml:space="preserve"> <path fill="#FFFFFF" d="M0.173,6.29c0,3.406,2.76,6.168,6.166,6.168s6.167-2.762,6.167-6.168c0-3.405-2.761-6.166-6.167-6.166 S0.173,2.885,0.173,6.29z M11.006,6.29c0,2.578-2.089,4.668-4.667,4.668S1.673,8.868,1.673,6.29c0-2.577,2.088-4.666,4.666-4.666 S11.006,3.713,11.006,6.29z"/> <polygon fill="#FFFFFF" points="7.148,6.372 4.771,8.75 5.786,9.766 9.179,6.372 5.655,2.848 4.64,3.863"/> </svg>');
+  content: "\e804";
+  color: #ffffff;
 }
 
-/* line 328, ../scss/guiaestilos_axtel2015.scss */
+/* line 473, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-delete {
   background-color: #939598;
 }
-/* line 331, ../scss/guiaestilos_axtel2015.scss */
+/* line 476, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-delete:before {
-  content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.833px" height="12.75px" viewBox="0 0 12.833 12.75" enable-background="new 0 0 12.833 12.75" xml:space="preserve"> <path fill="#FFFFFF" d="M0.391,6.445c0,3.406,2.76,6.168,6.166,6.168s6.168-2.762,6.168-6.168c0-3.405-2.762-6.166-6.168-6.166 S0.391,3.04,0.391,6.445z M11.225,6.445c0,2.578-2.09,4.668-4.668,4.668s-4.666-2.09-4.666-4.668c0-2.577,2.088-4.666,4.666-4.666 S11.225,3.868,11.225,6.445z"/> <polygon fill="#FFFFFF" points="9.124,4.888 7.944,3.709 6.471,5.182 4.999,3.709 3.82,4.888 5.292,6.361 3.819,7.834 4.999,9.013 6.471,7.541 7.944,9.013 9.124,7.834 7.651,6.362"/> </svg>');
+  content: "\e801";
+  color: #ffffff;
 }
 
-/* line 336, ../scss/guiaestilos_axtel2015.scss */
+/* line 482, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-pinkbg {
   background-color: #5b0d00;
   color: #ffffff;
 }
-/* line 340, ../scss/guiaestilos_axtel2015.scss */
+/* line 486, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-pinkbg:hover {
   background-color: #ae2033;
   color: #ffffff;
 }
-/* line 344, ../scss/guiaestilos_axtel2015.scss */
+/* line 490, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-pinkbg:active {
   background-color: #861627;
   border: 1px solid #861627;
 }
-/* line 348, ../scss/guiaestilos_axtel2015.scss */
+/* line 494, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-pinkbg:focus, .btn-axtel-pinkbg:active:focus {
   color: #ffffff;
 }
 
-/* line 354, ../scss/guiaestilos_axtel2015.scss */
-.btn.btn-axtel-plus {
-  width: 29px;
-  height: 29px;
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28.084px" height="28.167px" viewBox="0 0 28.084 28.167" enable-background="new 0 0 28.084 28.167" xml:space="preserve"> <circle fill="#c42032" cx="14.055" cy="14.258" r="13.667"/> <polygon fill="#FFFFFF" points="18.117,13.299 14.825,13.299 14.825,10.008 13.179,10.008 13.179,13.299 9.888,13.299 9.888,14.945 13.179,14.945 13.179,18.236 14.825,18.236 14.825,14.945 18.117,14.945"/> </svg>');
+/* line 499, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-plus-sp, .btn-axtel-minus-sp {
+  width: 39px;
+  height: 37px;
+  background-color: transparent;
+  background-image: url("../style-elements/axtel-plus-btnsp.png");
   background-repeat: no-repeat;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  background-position: 0px 0px;
 }
-/* line 360, ../scss/guiaestilos_axtel2015.scss */
-.btn.btn-axtel-plus.close {
-  float: none;
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-/* line 366, ../scss/guiaestilos_axtel2015.scss */
-.btn.btn-axtel-minus {
-  width: 29px;
-  height: 29px;
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28.167px" viewBox="0 0 28 28.167" enable-background="new 0 0 28 28.167" xml:space="preserve"> <circle fill="#c42032" cx="14.055" cy="14.258" r="13.667"/> <rect x="9.805" y="13.215" fill="#FFFFFF" width="8.229" height="1.646"/> </svg>');
+/* line 506, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-plus-sp:hover, .btn-axtel-minus-sp:hover {
+  background-image: url("../style-elements/axtel-plus-btnsp.png");
   background-repeat: no-repeat;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  background-position: 0px -38px;
 }
-/* line 372, ../scss/guiaestilos_axtel2015.scss */
-.btn.btn-axtel-minus.close {
-  float: none;
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-/* line 379, ../scss/guiaestilos_axtel2015.scss */
-.btn:hover.btn-axtel-plus {
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28.084px" height="28.167px" viewBox="0 0 28.084 28.167" enable-background="new 0 0 28.084 28.167" xml:space="preserve"> <circle fill="#ae2033" cx="14.055" cy="14.258" r="13.667"/> <polygon fill="#FFFFFF" points="18.117,13.299 14.825,13.299 14.825,10.008 13.179,10.008 13.179,13.299 9.888,13.299 9.888,14.945 13.179,14.945 13.179,18.236 14.825,18.236 14.825,14.945 18.117,14.945"/> </svg>');
-}
-/* line 382, ../scss/guiaestilos_axtel2015.scss */
-.btn:hover.btn-axtel-minus {
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28.167px" viewBox="0 0 28 28.167" enable-background="new 0 0 28 28.167" xml:space="preserve"> <circle fill="#ae2033" cx="14.055" cy="14.258" r="13.667"/> <rect x="9.805" y="13.215" fill="#FFFFFF" width="8.229" height="1.646"/> </svg>');
-}
-/* line 386, ../scss/guiaestilos_axtel2015.scss */
-.btn:active {
-  outline: none;
+/* line 511, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-plus-sp:active, .btn-axtel-minus-sp:active {
+  background-image: url("../style-elements/axtel-plus-btnsp.png");
+  background-repeat: no-repeat;
+  background-position: 0px -76px;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 387, ../scss/guiaestilos_axtel2015.scss */
-.btn:active.btn-axtel-plus {
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28.084px" height="28.167px" viewBox="0 0 28.084 28.167" enable-background="new 0 0 28.084 28.167" xml:space="preserve"> <circle fill="#861627" cx="14.055" cy="14.258" r="13.667"/> <polygon fill="#FFFFFF" points="18.117,13.299 14.825,13.299 14.825,10.008 13.179,10.008 13.179,13.299 9.888,13.299 9.888,14.945 13.179,14.945 13.179,18.236 14.825,18.236 14.825,14.945 18.117,14.945"/> </svg>');
+
+/* line 519, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-minus-sp {
+  background-image: url("../style-elements/axtel-minus-btnsp.png");
 }
-/* line 390, ../scss/guiaestilos_axtel2015.scss */
-.btn:active.btn-axtel-minus {
-  background-image: url('data:image/svg+xml,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28.167px" viewBox="0 0 28 28.167" enable-background="new 0 0 28 28.167" xml:space="preserve"> <circle fill="#861627" cx="14.055" cy="14.258" r="13.667"/> <rect x="9.805" y="13.215" fill="#FFFFFF" width="8.229" height="1.646"/> </svg>');
+/* line 522, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-minus-sp:hover {
+  background-image: url("../style-elements/axtel-minus-btnsp.png");
 }
-/* line 396, ../scss/guiaestilos_axtel2015.scss */
-.btn:active:focus, .btn:focus {
-  outline: none;
+/* line 525, ../scss/guiaestilos_axtel2015.scss */
+.btn-axtel-minus-sp:active {
+  background-image: url("../style-elements/axtel-minus-btnsp.png");
 }
 
-/* line 399, ../scss/guiaestilos_axtel2015.scss */
+/* line 530, ../scss/guiaestilos_axtel2015.scss */
 .axtel-btn-group {
   position: relative;
   display: inline-block;
@@ -1247,35 +1558,35 @@ h6 {
   border-radius: 25px;
   background-color: #f1f2f2;
 }
-/* line 405, ../scss/guiaestilos_axtel2015.scss */
+/* line 536, ../scss/guiaestilos_axtel2015.scss */
 .axtel-btn-group .btn-axtel-secondary {
   background-color: #f1f2f2;
   color: #88898c;
 }
-/* line 410, ../scss/guiaestilos_axtel2015.scss */
+/* line 541, ../scss/guiaestilos_axtel2015.scss */
 .axtel-btn-group .active {
   background-color: #c42032;
   color: #ffffff;
 }
 
 /*DARK*/
-/* line 417, ../scss/guiaestilos_axtel2015.scss */
+/* line 548, ../scss/guiaestilos_axtel2015.scss */
 .dark-jumbotron {
   background-color: #1b1b1d;
   padding: 38px 45px;
 }
-/* line 421, ../scss/guiaestilos_axtel2015.scss */
+/* line 552, ../scss/guiaestilos_axtel2015.scss */
 .dark-jumbotron h6 {
   color: #939598;
 }
 
 /**** LIST GROUP ****/
-/* line 427, ../scss/guiaestilos_axtel2015.scss */
+/* line 558, ../scss/guiaestilos_axtel2015.scss */
 .axtel-list-group {
   max-width: 150px;
 }
 
-/* line 430, ../scss/guiaestilos_axtel2015.scss */
+/* line 561, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item {
   position: relative;
   display: block;
@@ -1283,46 +1594,54 @@ h6 {
   margin-bottom: -1px;
   font-size: 12px;
 }
-/* line 438, ../scss/guiaestilos_axtel2015.scss */
+/* line 568, ../scss/guiaestilos_axtel2015.scss */
+.axtel-listgroup-item:hover {
+  background-color: #444;
+}
+/* line 573, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item.pblanco-icon:before {
   content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.625px" height="12.75px" viewBox="0 0 12.625 12.75" enable-background="new 0 0 12.625 12.75" xml:space="preserve"> <circle fill="#121212" cx="6.888" cy="7.028" r="4.167"/> <circle fill="#FFFFFF" cx="5.555" cy="5.694" r="4.167"/> </svg>');
+  content: url("../style-elements/puntoblanco-icon.png");
   position: relative;
   top: 1px;
   left: -5px;
 }
-/* line 446, ../scss/guiaestilos_axtel2015.scss */
+/* line 582, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item.projo-icon:before {
   content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11.812px" height="12.25px" viewBox="0 0 11.812 12.25" enable-background="new 0 0 11.812 12.25" xml:space="preserve"> <circle fill="#121212" cx="6.45" cy="6.862" r="4.167"/> <circle fill="#C42032" cx="5.118" cy="5.528" r="4.167"/> </svg>');
+  content: url("../style-elements/puntorojo-icon.png");
   position: relative;
   top: 1px;
   left: -5px;
 }
-/* line 454, ../scss/guiaestilos_axtel2015.scss */
+/* line 591, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item.pamarillo-icon:before {
   content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10.938px" height="12.5px" viewBox="0 0 10.938 12.5" enable-background="new 0 0 10.938 12.5" xml:space="preserve"> <circle fill="#121212" cx="6.159" cy="7.05" r="4.167"/> <circle fill="#FFCF05" cx="4.826" cy="5.716" r="4.167"/> </svg>');
+  content: url("../style-elements/puntoamarillo-icon.png");
   position: relative;
   top: 1px;
   left: -5px;
 }
-/* line 462, ../scss/guiaestilos_axtel2015.scss */
+/* line 600, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item.pverde-icon:before {
   content: url('data:image/svg+xml,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11.25px" height="13.75px" viewBox="0 0 11.25 13.75" enable-background="new 0 0 11.25 13.75" xml:space="preserve"> <circle fill="#121212" cx="6.242" cy="7.862" r="4.167"/> <circle fill="#6EBE44" cx="4.909" cy="6.528" r="4.167"/> </svg>');
+  content: url("../style-elements/puntoverde-icon.png");
   position: relative;
   top: 1px;
   left: -5px;
 }
 
-/* line 471, ../scss/guiaestilos_axtel2015.scss */
+/* line 610, ../scss/guiaestilos_axtel2015.scss */
 a.axtel-listgroup-item, button.axtel-listgroup-item {
   color: #fff;
 }
 
-/* line 476, ../scss/guiaestilos_axtel2015.scss */
+/* line 615, ../scss/guiaestilos_axtel2015.scss */
 a.axtel-listgroup-item:focus {
   text-decoration: none;
 }
 
-/* line 479, ../scss/guiaestilos_axtel2015.scss */
+/* line 618, ../scss/guiaestilos_axtel2015.scss */
 .axtel-listgroup-item.active, .axtel-listgroup-item.active:focus, .axtel-listgroup-item.active:hover {
   z-index: 2;
   color: #fff;
@@ -1330,8 +1649,26 @@ a.axtel-listgroup-item:focus {
 }
 
 /****FORMS****/
-/* line 487, ../scss/guiaestilos_axtel2015.scss */
+/* line 628, ../scss/guiaestilos_axtel2015.scss */
+input.form-control::-webkit-input-placeholder {
+  color: #e6e7e8;
+}
+/* line 631, ../scss/guiaestilos_axtel2015.scss */
+input.form-control:-moz-placeholder {
+  color: #e6e7e8;
+}
+/* line 634, ../scss/guiaestilos_axtel2015.scss */
+input.form-control::-moz-placeholder {
+  color: #e6e7e8;
+}
+/* line 637, ../scss/guiaestilos_axtel2015.scss */
+input.form-control:-ms-input-placeholder {
+  color: #e6e7e8;
+}
+
+/* line 642, ../scss/guiaestilos_axtel2015.scss */
 .form-control {
+  height: 46px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -1339,49 +1676,52 @@ a.axtel-listgroup-item:focus {
   border: 1px solid #e4e5e6;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-size: 12px;
+  font-size: 16px;
 }
 
-/* line 494, ../scss/guiaestilos_axtel2015.scss */
+/* line 650, ../scss/guiaestilos_axtel2015.scss */
 .axtel-jumbotronform {
   padding: 39px 80px 20px;
   background-color: #f1f1f1;
 }
 
-/* line 499, ../scss/guiaestilos_axtel2015.scss */
+/* line 655, ../scss/guiaestilos_axtel2015.scss */
 .axtel-headerforms {
   width: 100%;
   padding: 32px 18px;
   background-color: #c42032;
 }
-/* line 503, ../scss/guiaestilos_axtel2015.scss */
+/* line 659, ../scss/guiaestilos_axtel2015.scss */
 .axtel-headerforms > p {
   margin-bottom: 0;
 }
 
-/* line 507, ../scss/guiaestilos_axtel2015.scss */
+/* line 663, ../scss/guiaestilos_axtel2015.scss */
 p.axtel-instructionforms, p.axtel-calltoactionforms, p.axtel-maintitleforms, p.axtel-subtitleforms {
   width: 100%;
   text-align: center;
-  font-size: 24px;
+  font-family: "Din";
+  font-size: 36px;
+  font-weight: 100;
 }
-/* line 512, ../scss/guiaestilos_axtel2015.scss */
+/* line 670, ../scss/guiaestilos_axtel2015.scss */
 p.axtel-calltoactionforms {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
 }
-/* line 517, ../scss/guiaestilos_axtel2015.scss */
+/* line 675, ../scss/guiaestilos_axtel2015.scss */
 p.axtel-maintitleforms {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 72px;
+  font-weight: 600;
 }
-/* line 522, ../scss/guiaestilos_axtel2015.scss */
+/* line 681, ../scss/guiaestilos_axtel2015.scss */
 p.axtel-subtitleforms {
   color: #ffffff;
-  font-size: 12px;
+  font-size: 16px;
 }
 
-/* line 529, ../scss/guiaestilos_axtel2015.scss */
+/* line 689, ../scss/guiaestilos_axtel2015.scss */
 .btn-axtel-default {
   color: #3e3e3e;
   background-color: #ffffff;
@@ -1392,25 +1732,25 @@ p.axtel-subtitleforms {
   border-radius: 2px;
 }
 
-/* line 537, ../scss/guiaestilos_axtel2015.scss */
+/* line 697, ../scss/guiaestilos_axtel2015.scss */
 .axtel-downarrow:before {
   margin-left: 12px;
   content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxMi43NXB4IiBoZWlnaHQ9IjguMjVweCIgdmlld0JveD0iMCAwIDEyLjc1IDguMjUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjc1IDguMjUiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlnb24gZmlsbD0iIzk0OTU5NSIgcG9pbnRzPSI2LjA4MSw1LjMyIDIuMDE2LDEuMTkyIDEsMi4yMDggNi4wODEsNy4zNTEgMTEuMjcyLDIuMjQ0IDEwLjI1NywxLjIyOSAiLz4NCjwvc3ZnPg0K");
 }
 
 /***** TITULO FORMULARIO CON LINEA *****/
-/* line 545, ../scss/guiaestilos_axtel2015.scss */
+/* line 705, ../scss/guiaestilos_axtel2015.scss */
 form label {
-  font-size: 12px;
+  font-size: 16px;
   color: #7c7e82;
   font-weight: normal;
 }
-/* line 552, ../scss/guiaestilos_axtel2015.scss */
+/* line 712, ../scss/guiaestilos_axtel2015.scss */
 form .input-group .btn-axtel-default {
   background-color: #d1d3d4;
 }
 
-/* line 558, ../scss/guiaestilos_axtel2015.scss */
+/* line 718, ../scss/guiaestilos_axtel2015.scss */
 h1.tit-seccionesformulario {
   position: relative;
   margin-top: 0;
@@ -1418,7 +1758,7 @@ h1.tit-seccionesformulario {
   text-align: center;
   color: #7c7e82;
 }
-/* line 565, ../scss/guiaestilos_axtel2015.scss */
+/* line 725, ../scss/guiaestilos_axtel2015.scss */
 h1.tit-seccionesformulario:before {
   content: "";
   display: block;
@@ -1429,7 +1769,7 @@ h1.tit-seccionesformulario:before {
   top: 50%;
   z-index: 1;
 }
-/* line 576, ../scss/guiaestilos_axtel2015.scss */
+/* line 736, ../scss/guiaestilos_axtel2015.scss */
 h1.tit-seccionesformulario span {
   background: #f1f1f1;
   padding: 0 20px;
@@ -1437,19 +1777,33 @@ h1.tit-seccionesformulario span {
   z-index: 5;
 }
 
-/* line 584, ../scss/guiaestilos_axtel2015.scss */
+/* line 744, ../scss/guiaestilos_axtel2015.scss */
 .fuente-axtel {
   font-size: 12px;
   color: #3e3e3e;
 }
 
-/* line 590, ../scss/guiaestilos_axtel2015.scss */
+/* line 749, ../scss/guiaestilos_axtel2015.scss */
 .align-center {
   text-align: center;
 }
 
 /**** DROPDOWN MENU ****/
-/* line 595, ../scss/guiaestilos_axtel2015.scss */
+/* line 754, ../scss/guiaestilos_axtel2015.scss */
+.selectpicker, .axtel-dropdown {
+  font-family: "DIN";
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 761, ../scss/guiaestilos_axtel2015.scss */
+.input-group .selectpicker {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 25px 10px 10px;
+}
+
+/* line 768, ../scss/guiaestilos_axtel2015.scss */
 .axtel-dropdown-menu {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1458,7 +1812,7 @@ h1.tit-seccionesformulario span {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 598, ../scss/guiaestilos_axtel2015.scss */
+/* line 771, ../scss/guiaestilos_axtel2015.scss */
 .axtel-dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
@@ -1468,10 +1822,43 @@ h1.tit-seccionesformulario span {
   color: #333;
   white-space: nowrap;
 }
-/* line 599, ../scss/guiaestilos_axtel2015.scss */
+/* line 772, ../scss/guiaestilos_axtel2015.scss */
 .axtel-dropdown-menu > li > a:focus, .axtel-dropdown-menu > li > a:hover {
   color: #262626;
   text-decoration: none;
   background-color: #58595b;
   color: #ffffff;
+}
+
+/* line 777, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas {
+  background: #cccccc;
+  margin-left: 17%;
+  margin-top: 50px;
+}
+/* line 782, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas p {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 786, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas p:first-child {
+  width: 137px;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+  color: #d1d3d4;
+}
+/* line 793, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas p:nth-child(2) {
+  width: 159px;
+}
+/* line 796, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas p:nth-child(3) {
+  width: 147px;
+}
+/* line 799, ../scss/guiaestilos_axtel2015.scss */
+.etiquetas-axtelmegas p:nth-child(4) {
+  width: 145px;
 }

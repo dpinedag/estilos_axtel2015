@@ -1,0 +1,29 @@
+@media all and (-ms-high-contrast:none), (-ms-high-contrast: active)
+     {
+*::-ms-backdrop,
+        .btn-axtel-download:before {
+             content: url('../style-elements/axtel-downloadbtn-icon.png') !important;
+        }
+        
+        .btn-axtel-submit:before {
+             content: url('../style-elements/axtel-submitbtn-icon.png') !important;
+        }
+        
+        .btn-axtel-login:before {
+                    content: url('../style-elements/axtel-loginbtn-icon.png') !important;
+        }
+        
+        .btn-axtel-delete:before {
+                    content: url('../style-elements/axtel-deletebtn-icon.png') !important;
+        }
+        
+        /*.btn-axtel-plus {
+               background-image: url('../style-elements/axtel-plusbtn-icon.png') !important;
+          }
+          
+          .btn-axtel-minus {
+               background-image: url('../style-elements/axtel-minusbtn-icon.png') !important;
+               background-repeat: no-repeat;
+           }*//* IE 11 */
+
+}

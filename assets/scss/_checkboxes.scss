@@ -76,6 +76,7 @@ $font-family-icon: 'FontAwesome' !default;
       top: 2px;
       left: 1px;
       content: checked-iconSVG();
+      content: url('../style-elements/axtel-check-icon.png');
     }
 
     &:disabled + label{

@@ -1,0 +1,80 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover { text-decoration: none; }
+}
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "DIN";
+  font-weight: 100;
+  color: $empresas-primarycolor-a;
+}
+
+h4, h5, h6,
+.h4, .h5, .h6 {
+  font-weight: normal;
+}
+
+h1, .h1 { font-size: 72px; }
+h2, .h2 { font-size: 36px; }
+h3, .h3 { font-size: 24px; }
+h4, .h4 { font-size: 18px; }
+h5, h6,
+.h5, .h6 { font-size: 16px; }
+
+
+// Body text
+// -------------------------
+p {
+    margin: 0;
+    font-family: "Lato";
+    &.header-p, &.short-p, &.long-p, &.smalltext-p {
+        font-family: "Lato"
+    }
+}
+
+p {
+    &.header-p {
+        font-size: 36px;
+    }
+    &.short-p {
+        font-size: 16px;
+        color: $empresas-secondarycolor-d;
+    }
+    &.long-p {
+        font-size: 14px;
+    }
+    &.smalltext-p {
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+}
+
+
+// Lists
+// -------------------------
+
+// Unordered and Ordered lists
+
+ul, ol {  
+  li {margin-bottom: 0.5em; color: $empresas-secondarycolor-d;}
+}
+
+
+//Blockquotes
+blockquote {
+    padding: ($line-height-computed / 2) $line-height-computed;
+    margin: 0 0 $line-height-computed;
+    border-left: 2px solid $empresas-secondarycolor-d;
+    color: $empresas-secondarycolor-d;
+    font-size: 14px;
+}

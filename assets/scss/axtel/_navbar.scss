@@ -1,0 +1,45 @@
+header.navigation {
+	position: fixed;
+	top: 0;
+	background-color: #ffffff;
+	min-height: 70px;
+	width: 100%;
+	z-index: 999;
+	.navigation-wrapper {
+		position: relative;
+		z-index: 999;
+	}
+	.navigation-wrapper::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+	.logo {
+		float: left;
+		max-height: 70px;
+		margin: .5625em 1em;
+		background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+		background-position: -116px -173px;
+		width: 50px;
+		height: 51px;
+	}
+    
+    .navigation-tools {
+      float: right;
+      margin: 10px 15px 3px 6px;
+	  @include media(max-width 480px) {
+		display: none;
+	  }
+    }
+}
+@media screen and(min-width: 64em) {
+	header.navigation {
+		.logo {
+			background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+			background-position: 0 -133px;
+			width: 140px;
+			height: 40px;
+			margin: .9375em 0 .9375em 1em;
+		}
+	}
+}

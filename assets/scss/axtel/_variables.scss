@@ -1,0 +1,47 @@
+// COLORES
+
+/*** VARIABLES ***/
+$font-size-base:          14px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$color-body: #262626;
+
+/***COLORES CASA***/
+$casa-primarycolor: #c42032;
+$casa-secondarycolor-a: #ae2033;
+$casa-secondarycolor-b: #861627;
+$casa-secondarycolor-c: #5b0d00;
+$casa-secondarycolor-d: #b81e2e;
+$casa-secondarycolor-e: #fe5757;
+$casa-secondarycolor-f: #fe8181;
+
+/***COLORES EMPRESAS***/
+$empresas-primarycolor: #414042;
+$empresas-primarycolor-a: #333333;
+$empresas-secondarycolor-a: #58595b;
+$empresas-secondarycolor-b: #6d6e71;
+$empresas-secondarycolor-c: #939598;
+$empresas-secondarycolor-d: #a7a9ac;
+$empresas-secondarycolor-e: #d1d3d4;
+$empresas-secondarycolor-f: #e6e7e8;
+$empresas-secondarycolor-g: #f1f2f2;
+
+/***COLORES NEGOCIOS***/
+$negocios-primarycolor: #808285;
+$negocios-secondarycolor: #fedd38;
+
+/***COLORES GOBIERNO***/
+$gobierno-primarycolor: #d1d3d4;
+$gobierno-secondarycolor-a: #d6dccc;
+$gobierno-secondarycolor-b: #dee7eb;
+$gobierno-secondarycolor-c: #ffffeb;
+
+/***BULLETS-LISTAS***/
+
+$whitelist:     url(../img/elements/puntoblanco-icon.png);
+$redlist:       url(../img/elements/puntorojo-icon.png);
+$yellowlist:    url(../img/elements/puntoamarillo-icon.png);
+$greenlist:     url(../img/elements/puntoverde-icon.png);

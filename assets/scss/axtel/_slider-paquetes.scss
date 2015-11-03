@@ -1,0 +1,157 @@
+//EJEMPLO DE JQUERY-UI
+.sliderOn
+{
+  display:none;
+  opacity: 0 !important;
+}
+#slider
+{
+  font-size: 1px;
+  height: 246px;
+  position: absolute !important;
+  right: 23px;
+  top: 18px;
+}
+.jquerySliderActive
+{
+  overflow:hidden !important;
+}
+.sliderHolder {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: -20px !important;
+    padding-left: 24px !important;
+    padding-top: 25px !important;
+    float: left;
+  
+    p + p {
+        line-height:1.5em;
+    }
+    
+    p {
+        float:left;
+        font-size: 10px;
+        text-align: center;
+        top: 10px;
+        text-indent: inherit !important;
+    }
+    
+    .slider-legend {
+        margin-left: 13% !important;
+        margin-top: 46px;
+        width: 100% !important;
+        
+    p {
+        overflow:hidden;
+        font-size: 16px;
+        font-weight: 600;
+        &:first-child {width: 109.625px !important;}
+    }
+    
+    }
+}
+
+.horizontalSlider {
+    height:9px !important;
+    width:83% !important;
+    background-color: #e7e7e9;
+    float: left;
+    margin: 0 !important;
+    @include transition(all 0.6 ease);
+    @include border-radius(0 5px 5px 0);
+    
+    span.ui-slider-handle {
+        /*background: url("../img/elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;*/
+        border: medium none;
+        border-radius: 0 0 0 0;
+        display: block;
+        height: 65px;
+        margin-left: -35px;
+        padding: 8px 0 0;
+        position: relative;
+        top: -39px;
+        width: 59px;
+        @include transition(all 0.6 ease);
+        
+            &:hover, &:active {
+                background: url("../img/elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;
+            }
+            &:focus {
+                outline: none;
+            }
+    }
+    
+    &.handmegas {
+         span.ui-slider-handle {
+             &:hover, &:active {
+                background: url("../img/elements/axtel-paqmegas-handle.png") no-repeat scroll top center transparent;
+            }
+         }
+    }
+}
+
+.horizontalSlider.ui-slider-horizontal .ui-slider-range-min
+{
+    @include transition(all 0.3s ease);
+    background-color: #fd5656;
+    height: 9px;
+    float: left;
+    margin-left: 0 !important;
+}
+
+.horizontalSlider.handmegas.ui-slider-horizontal .ui-slider-range-min
+{
+    @include transition(all 0.3s ease);
+    background-color: #000000;
+    height: 9px;
+    float: left;
+    margin-left: 0 !important;
+}
+
+.fakeslider {
+    width: 17% !important;
+    height: 9px;
+    background: #fd5656;
+    float: left !important;
+    margin-left: 0 !important;
+    @include border-radius(5px 0 0 5px);
+    &.slidermegas {
+        background: #000000 !important;
+    }
+}
+
+//END EJEMPLO DE JQUERY-UI
+
+//ETIQUETAS SLIDERS PAQUETES//
+.etiquetas-axtelmegas {
+    margin-left: 17% !important;
+    margin-top: 50px;
+    width: 100% !important;
+    
+    p {
+        float: left;
+        font-size: 18px;
+        font-weight: 600;
+        &:first-child {
+            width: 137px;
+            font-size: 14px;
+            font-weight: 100;
+            text-align: left;
+            color: $gobierno-primarycolor;
+        }
+        &:nth-child(2) {
+            width: 159px;
+        }
+        &:nth-child(3) {
+            width: 147px;
+        }
+        &:nth-child(4) {
+            width: 145px;
+        }
+    }
+}
+
+
+

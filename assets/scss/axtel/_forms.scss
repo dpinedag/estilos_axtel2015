@@ -1,0 +1,191 @@
+/****FORMS****/
+label {
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+  margin-bottom: 5px;
+  font-family: "Din";
+  font-size: 16px;
+  color: #7c7e82;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+input { 
+  &[type="text"], &[type="password"], &[type="number"] {
+    &::-webkit-input-placeholder {
+        color: $empresas-secondarycolor-f;
+    }
+    &:-moz-placeholder {
+        color: $empresas-secondarycolor-f;
+    }
+    &::-moz-placeholder {
+        color: $empresas-secondarycolor-f;
+    }
+    &:-ms-input-placeholder {
+        color: $empresas-secondarycolor-f;
+    }
+    height: 46px;
+    @include border-radius(2px);
+    border: 1px solid #e4e5e6;
+    @include box-shadow(none);
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #ffffff;
+    background-image: none;
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+      background-color: $empresas-secondarycolor-f;
+      &::-webkit-input-placeholder {
+        color: $empresas-secondarycolor-c;
+    }
+    &:-moz-placeholder {
+        color: $empresas-secondarycolor-c;
+    }
+    &::-moz-placeholder {
+        color: $empresas-secondarycolor-c;
+    }
+    &:-ms-input-placeholder {
+        color: $empresas-secondarycolor-c;
+    }
+    }
+  }
+}
+.axtel-jumbotronform {
+  padding: 39px 80px 20px;
+  background-color: #f1f1f1;
+}
+
+.axtel-headerforms {
+    width: 100%;
+    padding: 32px 18px;
+    background-color: $casa-primarycolor;
+    &>p {margin-bottom: 0;}
+}
+
+p {
+    &.axtel-instructionforms {
+        width: 100%;
+        text-align: center;
+        font-family: "Din";
+        font-size: 36px;
+        font-weight: 100;
+    }
+    &.axtel-calltoactionforms {
+        @extend .axtel-instructionforms;
+        color: #ffffff;
+        font-size: 24px;
+    }
+    &.axtel-maintitleforms {
+        @extend .axtel-instructionforms;
+        color: #ffffff;
+        font-size: 72px;
+        font-weight: 600;
+    }
+    &.axtel-subtitleforms {
+        @extend .axtel-instructionforms;
+        color: #ffffff;
+        font-size: 16px;
+    }
+}
+
+
+.btn-axtel-default {
+    color: #3e3e3e;
+    background-color: #ffffff;
+    border-color: #d1d3d4;
+    @include border-radius(2px);
+}
+
+.axtel-downarrow {
+    &:before {
+        margin-left: 12px;
+        content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxMi43NXB4IiBoZWlnaHQ9IjguMjVweCIgdmlld0JveD0iMCAwIDEyLjc1IDguMjUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjc1IDguMjUiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlnb24gZmlsbD0iIzk0OTU5NSIgcG9pbnRzPSI2LjA4MSw1LjMyIDIuMDE2LDEuMTkyIDEsMi4yMDggNi4wODEsNy4zNTEgMTEuMjcyLDIuMjQ0IDEwLjI1NywxLjIyOSAiLz4NCjwvc3ZnPg0K");
+    }
+}
+
+.input-group {
+  .btn-axtel-default {
+      background-color: #d1d3d4;
+  }
+}
+
+/***** TITULO FORMULARIO CON LINEA *****/
+h1.tit-seccionesformulario {
+    position: relative;
+    margin-top: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #7c7e82;
+    
+    &:before {
+    content: "";
+    display: block;
+    border-top: solid 1px #d5d7d8;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    }
+    
+    span {
+        background: #f1f1f1;
+        padding: 0 20px;
+        position: relative;
+        z-index: 5;    
+    }
+}
+
+.input-group {
+    width: 100%;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    .selectpicker {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 11px 25px 10px 10px;
+        height: 46px;
+    }
+    .form-control {
+      display: table-cell;
+      height: 46px;
+    }
+}
+
+
+/***** FORM GROUP *****/
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+////*********CHECKBOXES**********/////
+
+input[type="checkbox"] {
+  @include checkbox-axtel();
+}
+
+
+////*********RADIOBUTTON**********/////
+
+input[type="radio"] {
+  @include radiobutton-axtel();
+}
+
+
+////*********SELECT**********/////
+
+select {
+  /*@include select-axtel();*/
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    background-color: $empresas-secondarycolor-f;
+  }
+}

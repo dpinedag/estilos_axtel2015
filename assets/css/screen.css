@@ -1,0 +1,2184 @@
+/* line 4, ../scss/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 13, ../scss/_normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 20, ../scss/_normalize.scss */
+html {
+  font-family: sans-serif;
+}
+/* line 22, ../scss/_normalize.scss */
+html input[type="button"] {
+  cursor: pointer;
+}
+/* line 25, ../scss/_normalize.scss */
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 29, ../scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 32, ../scss/_normalize.scss */
+article {
+  display: block;
+}
+
+/* line 35, ../scss/_normalize.scss */
+aside {
+  display: block;
+}
+
+/* line 38, ../scss/_normalize.scss */
+details {
+  display: block;
+}
+
+/* line 41, ../scss/_normalize.scss */
+figcaption {
+  display: block;
+}
+
+/* line 44, ../scss/_normalize.scss */
+figure {
+  display: block;
+  margin: 1em 40px;
+}
+
+/* line 48, ../scss/_normalize.scss */
+footer {
+  display: block;
+}
+
+/* line 51, ../scss/_normalize.scss */
+header {
+  display: block;
+}
+
+/* line 54, ../scss/_normalize.scss */
+hgroup {
+  display: block;
+}
+
+/* line 57, ../scss/_normalize.scss */
+main {
+  display: block;
+}
+
+/* line 60, ../scss/_normalize.scss */
+menu {
+  display: block;
+}
+
+/* line 63, ../scss/_normalize.scss */
+nav {
+  display: block;
+}
+
+/* line 66, ../scss/_normalize.scss */
+section {
+  display: block;
+}
+
+/* line 69, ../scss/_normalize.scss */
+summary {
+  display: block;
+}
+
+/* line 72, ../scss/_normalize.scss */
+audio {
+  display: inline-block;
+  vertical-align: baseline;
+}
+/* line 75, ../scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 80, ../scss/_normalize.scss */
+canvas {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 84, ../scss/_normalize.scss */
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 88, ../scss/_normalize.scss */
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 92, ../scss/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 95, ../scss/_normalize.scss */
+template {
+  display: none;
+}
+
+/* line 98, ../scss/_normalize.scss */
+a {
+  background-color: transparent;
+}
+/* line 100, ../scss/_normalize.scss */
+a:active {
+  outline: 0;
+}
+/* line 103, ../scss/_normalize.scss */
+a:hover {
+  outline: 0;
+}
+
+/* line 107, ../scss/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 110, ../scss/_normalize.scss */
+b {
+  font-weight: bold;
+}
+
+/* line 113, ../scss/_normalize.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 116, ../scss/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 119, ../scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 123, ../scss/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 127, ../scss/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 130, ../scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 134, ../scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 138, ../scss/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 141, ../scss/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 146, ../scss/_normalize.scss */
+pre {
+  overflow: auto;
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 151, ../scss/_normalize.scss */
+code {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 155, ../scss/_normalize.scss */
+kbd {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 159, ../scss/_normalize.scss */
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 163, ../scss/_normalize.scss */
+button {
+  overflow: visible;
+  text-transform: none;
+  cursor: pointer;
+}
+
+/* line 169, ../scss/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 173, ../scss/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 177, ../scss/_normalize.scss */
+select {
+  text-transform: none;
+}
+
+/* line 181, ../scss/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 185, ../scss/_normalize.scss */
+input[type="reset"] {
+  cursor: pointer;
+}
+
+/* line 188, ../scss/_normalize.scss */
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* line 191, ../scss/_normalize.scss */
+button[disabled] {
+  cursor: default;
+}
+
+/* line 194, ../scss/_normalize.scss */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 198, ../scss/_normalize.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 202, ../scss/_normalize.scss */
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 207, ../scss/_normalize.scss */
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 212, ../scss/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+
+/* line 215, ../scss/_normalize.scss */
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 218, ../scss/_normalize.scss */
+input[type="search"] {
+  box-sizing: content-box;
+}
+
+/* line 226, ../scss/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 231, ../scss/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 235, ../scss/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 239, ../scss/_normalize.scss */
+td {
+  padding: 0;
+}
+
+/* line 242, ../scss/_normalize.scss */
+th {
+  padding: 0;
+}
+
+/* line 245, ../scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 4, ../scss/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/*** VARIABLES ***/
+/***COLORES CASA***/
+/***COLORES EMPRESAS***/
+/***COLORES NEGOCIOS***/
+/***COLORES GOBIERNO***/
+/***BULLETS-LISTAS***/
+/*BORDER RADIUS*/
+/*BOX SHADOW*/
+/*TRANSITIONS*/
+/*OPACITY*/
+/*SVG*/
+@font-face {
+  font-family: "Din";
+  src: url("../fonts/DINWeb-Light.eot?1439219909");
+  src: url("../fonts/DINWeb-Light.eot?&1439219909#iefix") format("embedded-opentype"), url("../fonts/DINWeb-Light.woff?1439219909") format("woff");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Din";
+  src: url("../fonts/DINWeb.eot?1439219909");
+  src: url("../fonts/DINWeb.eot?&1439219909#iefix") format("embedded-opentype"), url("../fonts/DINWeb.woff?1439219909") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Din";
+  src: url("../fonts/DINWeb-Bold.eot?1439219909");
+  src: url("../fonts/DINWeb-Bold.eot?&1439219909#iefix") format("embedded-opentype"), url("../fonts/DINWeb-Bold.woff?1439219909") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Din";
+  src: url("../fonts/DINWeb-Black.eot?1439219909");
+  src: url("../fonts/DINWeb-Black.eot?&1439219909#iefix") format("embedded-opentype"), url("../fonts/DINWeb-Black.woff?1439219909") format("woff");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Din";
+  src: url("../fonts/DINWeb-Medium.eot?1439219909");
+  src: url("../fonts/DINWeb-Medium.eot?&1439219909#iefix") format("embedded-opentype"), url("../fonts/DINWeb-Medium.woff?1439219909") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("..fonts/lato-regular-webfont.eot");
+  src: url("..fonts/lato-regular-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-bold-webfont.eot");
+  src: url("../fonts/lato-bold-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-bold-webfont.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato-light-webfont.eot");
+  src: url("../fonts/lato-light-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/lato-light-webfont.woff") format("woff");
+  font-weight: 100;
+}
+/* line 6, ../scss/axtel/_type.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 9, ../scss/axtel/_type.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../scss/axtel/_type.scss */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "DIN";
+  font-weight: 100;
+  color: #333333;
+}
+
+/* line 22, ../scss/axtel/_type.scss */
+h4, h5, h6,
+.h4, .h5, .h6 {
+  font-weight: normal;
+}
+
+/* line 27, ../scss/axtel/_type.scss */
+h1, .h1 {
+  font-size: 72px;
+}
+
+/* line 28, ../scss/axtel/_type.scss */
+h2, .h2 {
+  font-size: 36px;
+}
+
+/* line 29, ../scss/axtel/_type.scss */
+h3, .h3 {
+  font-size: 24px;
+}
+
+/* line 30, ../scss/axtel/_type.scss */
+h4, .h4 {
+  font-size: 18px;
+}
+
+/* line 31, ../scss/axtel/_type.scss */
+h5, h6,
+.h5, .h6 {
+  font-size: 16px;
+}
+
+/* line 37, ../scss/axtel/_type.scss */
+p {
+  margin: 0;
+  font-family: "Lato";
+}
+/* line 40, ../scss/axtel/_type.scss */
+p.header-p, p.short-p, p.long-p, p.smalltext-p {
+  font-family: "Lato";
+}
+
+/* line 46, ../scss/axtel/_type.scss */
+p.header-p {
+  font-size: 36px;
+}
+/* line 49, ../scss/axtel/_type.scss */
+p.short-p {
+  font-size: 16px;
+  color: #a7a9ac;
+}
+/* line 53, ../scss/axtel/_type.scss */
+p.long-p {
+  font-size: 14px;
+}
+/* line 56, ../scss/axtel/_type.scss */
+p.smalltext-p {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* line 69, ../scss/axtel/_type.scss */
+ul li, ol li {
+  margin-bottom: 0.5em;
+  color: #a7a9ac;
+}
+
+/* line 74, ../scss/axtel/_type.scss */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 2px solid #a7a9ac;
+  color: #a7a9ac;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'axteliconos';
+  src: url("../fonts/axteliconos.eot?1a83gn");
+  src: url("../fonts/axteliconos.eot?1a83gn#iefix") format("embedded-opentype"), url("../fonts/axteliconos.ttf?1a83gn") format("truetype"), url("../fonts/axteliconos.woff?1a83gn") format("woff"), url("../fonts/axteliconos.svg?1a83gn#axteliconos") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*** FONT ICON AXTEL - CLASSES ***/
+/* line 17, ../scss/axtel/_axtelicons.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'axteliconos';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 34, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-captchabtn-icon .path1:before {
+  font-size: 29px;
+  content: "\e900";
+  color: #c42032;
+}
+/* line 41, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-captchabtn-icon .path2:before {
+  font-size: 29px;
+  content: "\e901";
+  margin-left: -1em;
+  color: white;
+}
+
+/* line 49, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-check-icon:before {
+  content: "\e800";
+}
+
+/* line 52, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-deletebtn-icon:before {
+  content: "\e801";
+}
+
+/* line 57, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-downarrow-icon:before {
+  content: "\e802";
+  margin-right: 17px;
+}
+
+/* line 63, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-downloadbtn-icon:before {
+  content: "\e803";
+  margin-right: 17px;
+}
+
+/* line 69, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-loginbtn-icon:before {
+  content: "\e804";
+}
+
+/* line 76, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-minusbtn-icon .path1:before {
+  font-size: 29px;
+  content: "\e805";
+  color: #c42032;
+}
+/* line 83, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-minusbtn-icon .path2:before {
+  font-size: 29px;
+  content: "\e806";
+  margin-left: -0.994140625em;
+  color: white;
+}
+
+/* line 94, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-plusbtn-icon .path1:before {
+  font-size: 29px;
+  content: "\e807";
+  color: #c42032;
+}
+/* line 101, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-plusbtn-icon .path2:before {
+  font-size: 29px;
+  content: "\e808";
+  margin-left: -0.9970703125em;
+  color: white;
+}
+
+/* line 111, ../scss/axtel/_axtelicons.scss */
+.icon-axtel-submitbtn-icon:before {
+  content: "\e809";
+}
+
+/* line 117, ../scss/axtel/_axtelicons.scss */
+.icon-puntoamarillo-icon .path1:before {
+  content: "\e80a";
+  color: #121212;
+}
+/* line 123, ../scss/axtel/_axtelicons.scss */
+.icon-puntoamarillo-icon .path2:before {
+  content: "\e80b";
+  margin-left: -1em;
+  color: #ffcf05;
+}
+
+/* line 133, ../scss/axtel/_axtelicons.scss */
+.icon-puntoblanco-icon .path1:before {
+  content: "\e80c";
+  color: #121212;
+}
+/* line 139, ../scss/axtel/_axtelicons.scss */
+.icon-puntoblanco-icon .path2:before {
+  content: "\e80d";
+  margin-left: -0.990234375em;
+  color: white;
+}
+
+/* line 149, ../scss/axtel/_axtelicons.scss */
+.icon-puntorojo-icon .path1:before {
+  content: "\e80e";
+  color: #121212;
+}
+/* line 155, ../scss/axtel/_axtelicons.scss */
+.icon-puntorojo-icon .path2:before {
+  content: "\e80f";
+  margin-left: -0.9638671875em;
+  color: #c42032;
+}
+
+/* line 165, ../scss/axtel/_axtelicons.scss */
+.icon-puntoverde-icon .path1:before {
+  content: "\e810";
+  color: #121212;
+}
+/* line 171, ../scss/axtel/_axtelicons.scss */
+.icon-puntoverde-icon .path2:before {
+  content: "\e811";
+  margin-left: -1em;
+  color: #6ebe44;
+}
+
+/* line 4, ../scss/axtel/_botonesaxtel.scss */
+button, input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 52px;
+  touch-action: manipulation;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-family: "Din", "axteliconos";
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #414042;
+  border: 1px solid transparent;
+  padding: 0 30px;
+}
+/* line 176, ../scss/axtel/_mixins.scss */
+button:before, input[type="submit"]:before,
+input[type="reset"]:before,
+input[type="button"]:before {
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0 10px 0 -22px;
+  position: relative;
+  top: 3px;
+}
+/* line 183, ../scss/axtel/_mixins.scss */
+button.disabled, button[disabled], fieldset[disabled] button, input[type="submit"].disabled, input[type="submit"][disabled], fieldset[disabled] input[type="submit"],
+input[type="reset"].disabled,
+input[type="reset"][disabled], fieldset[disabled]
+input[type="reset"],
+input[type="button"].disabled,
+input[type="button"][disabled], fieldset[disabled]
+input[type="button"] {
+  color: #ffffff !important;
+  cursor: not-allowed;
+  background-color: #939598;
+  background-image: url("../img/elements/axtel-deletebtn.png") !important;
+}
+/* line 190, ../scss/axtel/_mixins.scss */
+button.disabled:hover, button[disabled]:hover, fieldset[disabled] button:hover, input[type="submit"].disabled:hover, input[type="submit"][disabled]:hover, fieldset[disabled] input[type="submit"]:hover,
+input[type="reset"].disabled:hover,
+input[type="reset"][disabled]:hover, fieldset[disabled]
+input[type="reset"]:hover,
+input[type="button"].disabled:hover,
+input[type="button"][disabled]:hover, fieldset[disabled]
+input[type="button"]:hover {
+  color: #ffffff !important;
+  background-color: #939598;
+  background-image: url("../img/elements/axtel-deletebtn.png") !important;
+}
+
+/* line 11, ../scss/axtel/_botonesaxtel.scss */
+a.btn-axtel-secondary, a.btn-axtel-alternative, a.btn-axtel-darkbg, a.btn-axtel-rect, a.btn-axtel-submit, a.btn-axtel-login, a.btn-axtel-pinkbg {
+  display: inline-block;
+  height: 52px;
+  touch-action: manipulation;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-family: "Din", "axteliconos";
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #414042;
+  border: 1px solid transparent;
+  padding: 0 30px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+/* line 176, ../scss/axtel/_mixins.scss */
+a.btn-axtel-secondary:before, a.btn-axtel-alternative:before, a.btn-axtel-darkbg:before, a.btn-axtel-rect:before, a.btn-axtel-submit:before, a.btn-axtel-login:before, a.btn-axtel-pinkbg:before {
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0 10px 0 -22px;
+  position: relative;
+  top: 3px;
+}
+/* line 183, ../scss/axtel/_mixins.scss */
+a.btn-axtel-secondary.disabled, a.btn-axtel-secondary[disabled], fieldset[disabled] a.btn-axtel-secondary, a.btn-axtel-alternative.disabled, a.btn-axtel-alternative[disabled], fieldset[disabled] a.btn-axtel-alternative, a.btn-axtel-darkbg.disabled, a.btn-axtel-darkbg[disabled], fieldset[disabled] a.btn-axtel-darkbg, a.btn-axtel-rect.disabled, a.btn-axtel-rect[disabled], fieldset[disabled] a.btn-axtel-rect, a.btn-axtel-submit.disabled, a.btn-axtel-submit[disabled], fieldset[disabled] a.btn-axtel-submit, a.btn-axtel-login.disabled, a.btn-axtel-login[disabled], fieldset[disabled] a.btn-axtel-login, a.btn-axtel-pinkbg.disabled, a.btn-axtel-pinkbg[disabled], fieldset[disabled] a.btn-axtel-pinkbg {
+  color: #ffffff !important;
+  cursor: not-allowed;
+  background-color: #939598;
+  background-image: url("../img/elements/axtel-deletebtn.png") !important;
+}
+/* line 190, ../scss/axtel/_mixins.scss */
+a.btn-axtel-secondary.disabled:hover, a.btn-axtel-secondary[disabled]:hover, fieldset[disabled] a.btn-axtel-secondary:hover, a.btn-axtel-alternative.disabled:hover, a.btn-axtel-alternative[disabled]:hover, fieldset[disabled] a.btn-axtel-alternative:hover, a.btn-axtel-darkbg.disabled:hover, a.btn-axtel-darkbg[disabled]:hover, fieldset[disabled] a.btn-axtel-darkbg:hover, a.btn-axtel-rect.disabled:hover, a.btn-axtel-rect[disabled]:hover, fieldset[disabled] a.btn-axtel-rect:hover, a.btn-axtel-submit.disabled:hover, a.btn-axtel-submit[disabled]:hover, fieldset[disabled] a.btn-axtel-submit:hover, a.btn-axtel-login.disabled:hover, a.btn-axtel-login[disabled]:hover, fieldset[disabled] a.btn-axtel-login:hover, a.btn-axtel-pinkbg.disabled:hover, a.btn-axtel-pinkbg[disabled]:hover, fieldset[disabled] a.btn-axtel-pinkbg:hover {
+  color: #ffffff !important;
+  background-color: #939598;
+  background-image: url("../img/elements/axtel-deletebtn.png") !important;
+}
+/* line 16, ../scss/axtel/_botonesaxtel.scss */
+a.btn-axtel-secondary:before, a.btn-axtel-alternative:before, a.btn-axtel-darkbg:before, a.btn-axtel-rect:before, a.btn-axtel-submit:before, a.btn-axtel-login:before, a.btn-axtel-pinkbg:before {
+  margin-left: -38px;
+}
+/* line 19, ../scss/axtel/_botonesaxtel.scss */
+a.btn-axtel-secondary:hover, a.btn-axtel-secondary:active, a.btn-axtel-secondary:visited, a.btn-axtel-alternative:hover, a.btn-axtel-alternative:active, a.btn-axtel-alternative:visited, a.btn-axtel-darkbg:hover, a.btn-axtel-darkbg:active, a.btn-axtel-darkbg:visited, a.btn-axtel-rect:hover, a.btn-axtel-rect:active, a.btn-axtel-rect:visited, a.btn-axtel-submit:hover, a.btn-axtel-submit:active, a.btn-axtel-submit:visited, a.btn-axtel-login:hover, a.btn-axtel-login:active, a.btn-axtel-login:visited, a.btn-axtel-pinkbg:hover, a.btn-axtel-pinkbg:active, a.btn-axtel-pinkbg:visited {
+  color: #ffffff;
+}
+
+/* line 28, ../scss/axtel/_botonesaxtel.scss */
+input[type="submit"].btn-axtel-submit, input[type="submit"].btn-axtel-login, input[type="submit"].btn-axtel-delete,
+input[type="reset"].btn-axtel-submit,
+input[type="reset"].btn-axtel-login,
+input[type="reset"].btn-axtel-delete,
+input[type="button"].btn-axtel-submit,
+input[type="button"].btn-axtel-login,
+input[type="button"].btn-axtel-delete {
+  text-align: left;
+  padding-left: 22px;
+}
+
+/* line 34, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-main {
+  min-width: 173px;
+  background-color: #fedd38;
+}
+/* line 37, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-main:hover {
+  background-color: #ffcc00;
+}
+/* line 40, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-main:active {
+  background-color: #ffffeb;
+  border: 1px solid #fedd38;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 45, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-main:focus, .btn-axtel-main:active:focus {
+  outline: none;
+}
+
+/* line 50, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-alternative {
+  min-width: 173px;
+  background-color: #414042;
+  color: #ffffff !important;
+}
+/* line 54, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-alternative:hover {
+  background-color: #6d6e71;
+  color: #ffffff;
+}
+/* line 58, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-alternative:active {
+  color: #ffffff;
+  background-color: #414042;
+  border-color: #414042;
+}
+/* line 63, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-alternative:focus {
+  color: #ffffff;
+}
+
+/* line 69, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-darkbg {
+  min-width: 173px;
+  background-color: #343335;
+  border: 1px solid #4f4e50;
+  color: #ffffff;
+}
+/* line 74, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-darkbg:hover {
+  background-color: #3a393b;
+  border: 1px solid #494849;
+}
+/* line 78, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-darkbg:active {
+  background-color: #2d2d2e;
+  border: 1px solid #555456;
+}
+
+/* line 84, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-rect {
+  min-width: 173px;
+  height: 52px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #9d1a28;
+  color: #ffffff;
+  border: 1px solid #c23b4a;
+}
+/* line 92, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-rect:hover {
+  background-color: #b01d2d;
+  color: #ffffff;
+}
+/* line 96, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-rect:active {
+  background-color: #891623;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 101, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-rect:focus, .btn-axtel-rect:active:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+/* line 107, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-redbg {
+  min-width: 173px;
+  background-color: #ffffff;
+}
+/* line 110, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-redbg:hover {
+  background-color: #fe8181;
+}
+/* line 113, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-redbg:active {
+  background-color: #fe5757;
+  border: 1px solid #fe5757;
+}
+
+/* line 119, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-secondary {
+  min-width: 173px;
+  background-color: #c42032;
+  color: #ffffff;
+}
+/* line 123, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-secondary:hover {
+  background-color: #ae2033;
+  color: #ffffff;
+}
+/* line 127, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-secondary:active {
+  background-color: #861627;
+  border: 1px solid #861627;
+}
+/* line 131, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-secondary:focus, .btn-axtel-secondary:active:focus {
+  color: #ffffff;
+}
+
+/* line 136, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-download {
+  min-width: 173px;
+  background-color: #fe5757;
+}
+/* line 139, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-download:before {
+  content: "\e803";
+}
+/* line 142, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-download:hover, .btn-axtel-download:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 145, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-download:focus, .btn-axtel-download:active:focus {
+  outline: none;
+}
+
+/* line 151, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-submit {
+  min-width: 173px;
+  background-color: #fe8181;
+  color: #ffffff !important;
+}
+/* line 155, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-submit:before {
+  content: "\e809";
+}
+/* line 158, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-submit:hover, .btn-axtel-submit:active {
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 162, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-submit:focus, .btn-axtel-submit:active:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+/* line 168, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-login {
+  min-width: 173px;
+  background-color: #fedd38;
+  color: #414042 !important;
+}
+/* line 172, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-login:before {
+  content: "\e804";
+}
+
+/* line 177, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-delete {
+  min-width: 173px;
+  background-color: #939598;
+}
+/* line 180, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-delete:before {
+  content: "\e801";
+}
+
+/* line 185, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-pinkbg {
+  min-width: 173px;
+  background-color: #5b0d00;
+  color: #ffffff;
+}
+/* line 189, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-pinkbg:hover {
+  background-color: #ae2033;
+  color: #ffffff;
+}
+/* line 193, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-pinkbg:active {
+  background-color: #861627;
+  border: 1px solid #861627;
+}
+/* line 197, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-pinkbg:focus, .btn-axtel-pinkbg:active:focus {
+  color: #ffffff;
+}
+
+/* line 203, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-plus-sp, .btn-axtel-minus-sp {
+  width: 39px !important;
+  height: 37px !important;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* line 206, ../scss/axtel/_mixins.scss */
+.btn-axtel-plus-sp:hover, .btn-axtel-minus-sp:hover {
+  background-repeat: no-repeat;
+  background-position: 0px -38px;
+}
+/* line 210, ../scss/axtel/_mixins.scss */
+.btn-axtel-plus-sp:active, .btn-axtel-minus-sp:active {
+  background-repeat: no-repeat;
+  background-position: 0px -76px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 207, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-plus-sp {
+  background-image: url("../img/elements/axtel-plus-btnsp.png");
+}
+/* line 209, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-plus-sp:hover {
+  background-image: url("../img/elements/axtel-plus-btnsp.png");
+}
+/* line 212, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-plus-sp:active {
+  background-image: url("../img/elements/axtel-plus-btnsp.png");
+}
+
+/* line 217, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-minus-sp {
+  background-image: url("../img/elements/axtel-minus-btnsp.png");
+}
+/* line 219, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-minus-sp:hover {
+  background-image: url("../img/elements/axtel-minus-btnsp.png");
+}
+/* line 222, ../scss/axtel/_botonesaxtel.scss */
+.btn-axtel-minus-sp:active {
+  background-image: url("../img/elements/axtel-minus-btnsp.png");
+}
+
+/* line 229, ../scss/axtel/_botonesaxtel.scss */
+.button-group {
+  width: auto !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  float: left !important;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  font-family: "Din", "axteliconos";
+  font-weight: bold !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  background: #e6e7e8;
+  height: 52px;
+}
+/* line 244, ../scss/axtel/_botonesaxtel.scss */
+.button-group input {
+  display: none;
+}
+/* line 248, ../scss/axtel/_botonesaxtel.scss */
+.button-group label {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+@media screen and (min-width: 53.75em) {
+  /* line 248, ../scss/axtel/_botonesaxtel.scss */
+  .button-group label {
+    float: left;
+  }
+}
+/* line 255, ../scss/axtel/_botonesaxtel.scss */
+.button-group label span {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  background: #e6e7e8;
+  color: #a7a9ac;
+  text-align: center;
+  height: 52px;
+  padding: 18px 30px 0;
+  min-width: 173px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 268, ../scss/axtel/_botonesaxtel.scss */
+.button-group label span:hover {
+  background-color: #ae2033;
+  color: #ffffff;
+}
+/* line 274, ../scss/axtel/_botonesaxtel.scss */
+.button-group label input:checked + span {
+  background-color: #861627;
+  color: #ffffff;
+}
+
+/* END button-group */
+/****FORMS****/
+/* line 2, ../scss/axtel/_forms.scss */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-family: "Din";
+  font-size: 16px;
+  color: #7c7e82;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+/* line 14, ../scss/axtel/_forms.scss */
+input[type="text"], input[type="password"], input[type="number"] {
+  height: 46px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #e4e5e6;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #ffffff;
+  background-image: none;
+}
+/* line 15, ../scss/axtel/_forms.scss */
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder {
+  color: #e6e7e8;
+}
+/* line 18, ../scss/axtel/_forms.scss */
+input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="number"]:-moz-placeholder {
+  color: #e6e7e8;
+}
+/* line 21, ../scss/axtel/_forms.scss */
+input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="number"]::-moz-placeholder {
+  color: #e6e7e8;
+}
+/* line 24, ../scss/axtel/_forms.scss */
+input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder {
+  color: #e6e7e8;
+}
+/* line 39, ../scss/axtel/_forms.scss */
+input[type="text"].disabled, input[type="text"][disabled], fieldset[disabled] input[type="text"], input[type="password"].disabled, input[type="password"][disabled], fieldset[disabled] input[type="password"], input[type="number"].disabled, input[type="number"][disabled], fieldset[disabled] input[type="number"] {
+  background-color: #e6e7e8;
+}
+/* line 43, ../scss/axtel/_forms.scss */
+input[type="text"].disabled::-webkit-input-placeholder, input[type="text"][disabled]::-webkit-input-placeholder, fieldset[disabled] input[type="text"]::-webkit-input-placeholder, input[type="password"].disabled::-webkit-input-placeholder, input[type="password"][disabled]::-webkit-input-placeholder, fieldset[disabled] input[type="password"]::-webkit-input-placeholder, input[type="number"].disabled::-webkit-input-placeholder, input[type="number"][disabled]::-webkit-input-placeholder, fieldset[disabled] input[type="number"]::-webkit-input-placeholder {
+  color: #939598;
+}
+/* line 46, ../scss/axtel/_forms.scss */
+input[type="text"].disabled:-moz-placeholder, input[type="text"][disabled]:-moz-placeholder, fieldset[disabled] input[type="text"]:-moz-placeholder, input[type="password"].disabled:-moz-placeholder, input[type="password"][disabled]:-moz-placeholder, fieldset[disabled] input[type="password"]:-moz-placeholder, input[type="number"].disabled:-moz-placeholder, input[type="number"][disabled]:-moz-placeholder, fieldset[disabled] input[type="number"]:-moz-placeholder {
+  color: #939598;
+}
+/* line 49, ../scss/axtel/_forms.scss */
+input[type="text"].disabled::-moz-placeholder, input[type="text"][disabled]::-moz-placeholder, fieldset[disabled] input[type="text"]::-moz-placeholder, input[type="password"].disabled::-moz-placeholder, input[type="password"][disabled]::-moz-placeholder, fieldset[disabled] input[type="password"]::-moz-placeholder, input[type="number"].disabled::-moz-placeholder, input[type="number"][disabled]::-moz-placeholder, fieldset[disabled] input[type="number"]::-moz-placeholder {
+  color: #939598;
+}
+/* line 52, ../scss/axtel/_forms.scss */
+input[type="text"].disabled:-ms-input-placeholder, input[type="text"][disabled]:-ms-input-placeholder, fieldset[disabled] input[type="text"]:-ms-input-placeholder, input[type="password"].disabled:-ms-input-placeholder, input[type="password"][disabled]:-ms-input-placeholder, fieldset[disabled] input[type="password"]:-ms-input-placeholder, input[type="number"].disabled:-ms-input-placeholder, input[type="number"][disabled]:-ms-input-placeholder, fieldset[disabled] input[type="number"]:-ms-input-placeholder {
+  color: #939598;
+}
+
+/* line 58, ../scss/axtel/_forms.scss */
+.axtel-jumbotronform {
+  padding: 39px 80px 20px;
+  background-color: #f1f1f1;
+}
+
+/* line 63, ../scss/axtel/_forms.scss */
+.axtel-headerforms {
+  width: 100%;
+  padding: 32px 18px;
+  background-color: #c42032;
+}
+/* line 67, ../scss/axtel/_forms.scss */
+.axtel-headerforms > p {
+  margin-bottom: 0;
+}
+
+/* line 71, ../scss/axtel/_forms.scss */
+p.axtel-instructionforms, p.axtel-calltoactionforms, p.axtel-maintitleforms, p.axtel-subtitleforms {
+  width: 100%;
+  text-align: center;
+  font-family: "Din";
+  font-size: 36px;
+  font-weight: 100;
+}
+/* line 78, ../scss/axtel/_forms.scss */
+p.axtel-calltoactionforms {
+  color: #ffffff;
+  font-size: 24px;
+}
+/* line 83, ../scss/axtel/_forms.scss */
+p.axtel-maintitleforms {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 600;
+}
+/* line 89, ../scss/axtel/_forms.scss */
+p.axtel-subtitleforms {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* line 97, ../scss/axtel/_forms.scss */
+.btn-axtel-default {
+  color: #3e3e3e;
+  background-color: #ffffff;
+  border-color: #d1d3d4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 105, ../scss/axtel/_forms.scss */
+.axtel-downarrow:before {
+  margin-left: 12px;
+  content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxMi43NXB4IiBoZWlnaHQ9IjguMjVweCIgdmlld0JveD0iMCAwIDEyLjc1IDguMjUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyLjc1IDguMjUiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlnb24gZmlsbD0iIzk0OTU5NSIgcG9pbnRzPSI2LjA4MSw1LjMyIDIuMDE2LDEuMTkyIDEsMi4yMDggNi4wODEsNy4zNTEgMTEuMjcyLDIuMjQ0IDEwLjI1NywxLjIyOSAiLz4NCjwvc3ZnPg0K");
+}
+
+/* line 112, ../scss/axtel/_forms.scss */
+.input-group .btn-axtel-default {
+  background-color: #d1d3d4;
+}
+
+/***** TITULO FORMULARIO CON LINEA *****/
+/* line 118, ../scss/axtel/_forms.scss */
+h1.tit-seccionesformulario {
+  position: relative;
+  margin-top: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #7c7e82;
+}
+/* line 125, ../scss/axtel/_forms.scss */
+h1.tit-seccionesformulario:before {
+  content: "";
+  display: block;
+  border-top: solid 1px #d5d7d8;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+/* line 136, ../scss/axtel/_forms.scss */
+h1.tit-seccionesformulario span {
+  background: #f1f1f1;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 144, ../scss/axtel/_forms.scss */
+.input-group {
+  width: 100%;
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+/* line 149, ../scss/axtel/_forms.scss */
+.input-group .selectpicker {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 25px 10px 10px;
+  height: 46px;
+}
+/* line 155, ../scss/axtel/_forms.scss */
+.input-group .form-control {
+  display: table-cell;
+  height: 46px;
+}
+
+/***** FORM GROUP *****/
+/* line 163, ../scss/axtel/_forms.scss */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* line 170, ../scss/axtel/_forms.scss */
+input[type="checkbox"] {
+  opacity: 0;
+  z-index: 1;
+}
+/* line 222, ../scss/axtel/_mixins.scss */
+input[type="checkbox"] + label {
+  vertical-align: middle;
+  font-family: "Din";
+  font-weight: 600;
+  color: #939598;
+  padding-left: 5px;
+  position: relative;
+  left: -26px;
+}
+/* line 231, ../scss/axtel/_mixins.scss */
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* line 243, ../scss/axtel/_mixins.scss */
+input[type="checkbox"] + label:after {
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  margin-left: -20px;
+  padding-left: 3px;
+  padding-top: 1px;
+  font-size: 11px;
+  color: #555;
+}
+/* line 256, ../scss/axtel/_mixins.scss */
+input[type="checkbox"]:hover + label::before {
+  background-color: #58595b;
+}
+/* line 260, ../scss/axtel/_mixins.scss */
+input[type="checkbox"]:checked + label::before {
+  content: url("../img/elements/axtel-check-icon.png");
+  background-color: #ae2033;
+  padding-left: 2px;
+}
+/* line 266, ../scss/axtel/_mixins.scss */
+input[type="checkbox"]:disabled + label {
+  opacity: 0.65;
+}
+/* line 269, ../scss/axtel/_mixins.scss */
+input[type="checkbox"]:disabled + label::before {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+/* line 177, ../scss/axtel/_forms.scss */
+input[type="radio"] {
+  opacity: 0;
+  z-index: 1;
+}
+/* line 280, ../scss/axtel/_mixins.scss */
+input[type="radio"] + label {
+  vertical-align: middle;
+  font-family: "Din";
+  font-weight: 600;
+  color: #939598;
+  padding-left: 5px;
+  position: relative;
+  left: -1px;
+}
+/* line 289, ../scss/axtel/_mixins.scss */
+input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  margin-left: -20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #333333;
+  -webkit-transition: border 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out;
+}
+/* line 303, ../scss/axtel/_mixins.scss */
+input[type="radio"] + label::after {
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 11px;
+  height: 11px;
+  left: 3px;
+  top: 3px;
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #555;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+/* line 320, ../scss/axtel/_mixins.scss */
+input[type="radio"]:hover + label::before {
+  background-color: #58595b;
+}
+/* line 324, ../scss/axtel/_mixins.scss */
+input[type="radio"]:checked + label::after {
+  -webkit-transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  -o-transform: scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
+  background-color: #fedd38;
+}
+/* line 329, ../scss/axtel/_mixins.scss */
+input[type="radio"]:disabled + label {
+  opacity: 0.65;
+}
+/* line 332, ../scss/axtel/_mixins.scss */
+input[type="radio"]:disabled + label::before {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+/* line 184, ../scss/axtel/_forms.scss */
+select {
+  /*@include select-axtel();*/
+}
+/* line 186, ../scss/axtel/_forms.scss */
+select.disabled, select[disabled], fieldset[disabled] select {
+  background-color: #e6e7e8;
+}
+
+/**** LIST GROUP ****/
+/* line 2, ../scss/axtel/_listgroups.scss */
+.axtel-list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 185px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Din", "axteliconos";
+}
+/* line 9, ../scss/axtel/_listgroups.scss */
+.axtel-list li {
+  padding: 9px;
+}
+/* line 11, ../scss/axtel/_listgroups.scss */
+.axtel-list li:hover {
+  background-color: #848484;
+}
+/* line 15, ../scss/axtel/_listgroups.scss */
+.axtel-list a {
+  color: #ffffff;
+}
+/* line 17, ../scss/axtel/_listgroups.scss */
+.axtel-list a:hover, .axtel-list a:active, .axtel-list a:focus {
+  color: #ffffff;
+}
+
+/* line 26, ../scss/axtel/_listgroups.scss */
+.pblanco-icon:before, .axtel-list li:first-child:before, .axtel-list li:nth-child(5):before, .axtel-list li:nth-child(9):before, .axtel-list li:nth-child(13):before, .axtel-list li:nth-child(17):before, .axtel-list li:nth-child(21):before, .axtel-list li:nth-child(25):before, .axtel-list li:nth-child(29):before {
+  content: pblanco-iconSVG();
+  content: url("../img/elements/puntoblanco-icon.png");
+  position: relative;
+  top: 1px;
+  left: -5px;
+}
+
+/* line 35, ../scss/axtel/_listgroups.scss */
+.projo-icon:before, .axtel-list li:nth-child(2):before, .axtel-list li:nth-child(6):before, .axtel-list li:nth-child(10):before, .axtel-list li:nth-child(14):before, .axtel-list li:nth-child(18):before, .axtel-list li:nth-child(22):before, .axtel-list li:nth-child(26):before, .axtel-list li:nth-child(30):before {
+  content: projo-iconSVG();
+  content: url("../img/elements/puntorojo-icon.png");
+  position: relative;
+  top: 1px;
+  left: -5px;
+}
+
+/* line 44, ../scss/axtel/_listgroups.scss */
+.pamarillo-icon:before, .axtel-list li:nth-child(3):before, .axtel-list li:nth-child(7):before, .axtel-list li:nth-child(11):before, .axtel-list li:nth-child(15):before, .axtel-list li:nth-child(19):before, .axtel-list li:nth-child(23):before, .axtel-list li:nth-child(27):before, .axtel-list li:nth-child(31):before {
+  content: pamarillo-iconSVG();
+  content: url("../img/elements/puntoamarillo-icon.png");
+  position: relative;
+  top: 1px;
+  left: -5px;
+}
+
+/* line 53, ../scss/axtel/_listgroups.scss */
+.pverde-icon:before, .axtel-list li:nth-child(4):before, .axtel-list li:nth-child(8):before, .axtel-list li:nth-child(12):before, .axtel-list li:nth-child(16):before, .axtel-list li:nth-child(20):before, .axtel-list li:nth-child(24):before, .axtel-list li:nth-child(28):before, .axtel-list li:nth-child(32):before {
+  content: pverde-iconSVG();
+  content: url("../img/elements/puntoverde-icon.png");
+  position: relative;
+  top: 1px;
+  left: -5px;
+}
+
+/* line 1, ../scss/axtel/_fancyselect.scss */
+div.fancy-select {
+  font-family: "Din";
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #d2d2d2;
+}
+/* line 8, ../scss/axtel/_fancyselect.scss */
+div.fancy-select.disabled {
+  opacity: 0.5;
+}
+/* line 11, ../scss/axtel/_fancyselect.scss */
+div.fancy-select select:focus + div.trigger {
+  -webkit-box-shadow: 0 0 0 2px #4b5468;
+  -moz-box-shadow: 0 0 0 2px #4b5468;
+  box-shadow: 0 0 0 2px #4b5468;
+}
+/* line 13, ../scss/axtel/_fancyselect.scss */
+div.fancy-select select:focus + div.trigger.open {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 17, ../scss/axtel/_fancyselect.scss */
+div.fancy-select div.trigger {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 15px 24px 9px 9px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d2d4d5;
+  color: #d2d2d2;
+  width: 100%;
+  height: 46px;
+  -webkit-transition: all 240ms ease-out;
+  -o-transition: all 240ms ease-out;
+  transition: all 240ms ease-out;
+}
+/* line 31, ../scss/axtel/_fancyselect.scss */
+div.fancy-select div.trigger:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #4b5468;
+  top: 20px;
+  right: 9px;
+}
+/* line 42, ../scss/axtel/_fancyselect.scss */
+div.fancy-select div.trigger.open {
+  background: #ffffff;
+  border: 1px solid #d2d4d5;
+  color: #666666;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 48, ../scss/axtel/_fancyselect.scss */
+div.fancy-select div.trigger.open:after {
+  border-top-color: #7a8498;
+}
+/* line 53, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 50;
+  width: 100%;
+  min-width: 20px;
+  max-height: 800px;
+  overflow: auto;
+  background: #ffffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+  -o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+  transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+  padding-left: 0;
+}
+/* line 71, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options.open {
+  visibility: visible;
+  top: 50px;
+  padding-left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+  -o-transition: opacity 300ms ease-out, top 300ms ease-out;
+  transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+/* line 78, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options.overflowing {
+  top: auto;
+  bottom: 40px;
+  -webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+  -o-transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+  transition: opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;
+}
+/* line 82, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options.overflowing.open {
+  top: auto;
+  bottom: 50px;
+  -webkit-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+  -o-transition: opacity 300ms ease-out, bottom 300ms ease-out;
+  transition: opacity 300ms ease-out, bottom 300ms ease-out;
+}
+/* line 88, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options li {
+  padding: 8px 12px;
+  color: #58595b;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+  /*&.selected {
+  	background: rgba(43,134,134,0.3);
+  	color: rgba(255,255,255,0.75);
+  }*/
+}
+/* line 98, ../scss/axtel/_fancyselect.scss */
+div.fancy-select ul.options li.hover {
+  color: #fff;
+  background-color: #58595b;
+}
+
+/* line 112, ../scss/axtel/_fancyselect.scss */
+_:-ms-input-placeholder div.fancy-select div.trigger, :root div.input-group div.fancy-select div.trigger {
+  float: left;
+}
+
+/* line 119, ../scss/axtel/_fancyselect.scss */
+div.input-group div.fancy-select {
+  display: table-cell;
+  width: 1%;
+}
+/* line 122, ../scss/axtel/_fancyselect.scss */
+div.input-group div.fancy-select div.trigger {
+  color: #58595b;
+  background-color: #d1d3d4;
+  display: table-cell;
+  float: left\9;
+}
+/* line 128, ../scss/axtel/_fancyselect.scss */
+div.input-group div.fancy-select ul.options {
+  min-width: 100px;
+}
+
+/* line 2, ../scss/axtel/_slider-paquetes.scss */
+.sliderOn {
+  display: none;
+  opacity: 0 !important;
+}
+
+/* line 7, ../scss/axtel/_slider-paquetes.scss */
+#slider {
+  font-size: 1px;
+  height: 246px;
+  position: absolute !important;
+  right: 23px;
+  top: 18px;
+}
+
+/* line 15, ../scss/axtel/_slider-paquetes.scss */
+.jquerySliderActive {
+  overflow: hidden !important;
+}
+
+/* line 19, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder {
+  width: 100% !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-left: -20px !important;
+  padding-left: 24px !important;
+  padding-top: 25px !important;
+  float: left;
+}
+/* line 29, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder p + p {
+  line-height: 1.5em;
+}
+/* line 33, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder p {
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  top: 10px;
+  text-indent: inherit !important;
+}
+/* line 41, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder .slider-legend {
+  margin-left: 13% !important;
+  margin-top: 46px;
+  width: 100% !important;
+}
+/* line 46, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder .slider-legend p {
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* line 50, ../scss/axtel/_slider-paquetes.scss */
+.sliderHolder .slider-legend p:first-child {
+  width: 109.625px !important;
+}
+
+/* line 56, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider {
+  height: 9px !important;
+  width: 83% !important;
+  background-color: #e7e7e9;
+  float: left;
+  margin: 0 !important;
+  -webkit-transition: all 0.6 ease;
+  -o-transition: all 0.6 ease;
+  transition: all 0.6 ease;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 65, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle {
+  /*background: url("../img/elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;*/
+  border: medium none;
+  border-radius: 0 0 0 0;
+  display: block;
+  height: 65px;
+  margin-left: -35px;
+  padding: 8px 0 0;
+  position: relative;
+  top: -39px;
+  width: 59px;
+  -webkit-transition: all 0.6 ease;
+  -o-transition: all 0.6 ease;
+  transition: all 0.6 ease;
+}
+/* line 78, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle:hover, .horizontalSlider span.ui-slider-handle:active {
+  background: url("../img/elements/axtel-paquetes-handle.png") no-repeat scroll top center transparent;
+}
+/* line 81, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider span.ui-slider-handle:focus {
+  outline: none;
+}
+/* line 88, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider.handmegas span.ui-slider-handle:hover, .horizontalSlider.handmegas span.ui-slider-handle:active {
+  background: url("../img/elements/axtel-paqmegas-handle.png") no-repeat scroll top center transparent;
+}
+
+/* line 95, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider.ui-slider-horizontal .ui-slider-range-min {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #fd5656;
+  height: 9px;
+  float: left;
+  margin-left: 0 !important;
+}
+
+/* line 104, ../scss/axtel/_slider-paquetes.scss */
+.horizontalSlider.handmegas.ui-slider-horizontal .ui-slider-range-min {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #000000;
+  height: 9px;
+  float: left;
+  margin-left: 0 !important;
+}
+
+/* line 113, ../scss/axtel/_slider-paquetes.scss */
+.fakeslider {
+  width: 17% !important;
+  height: 9px;
+  background: #fd5656;
+  float: left !important;
+  margin-left: 0 !important;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+/* line 120, ../scss/axtel/_slider-paquetes.scss */
+.fakeslider.slidermegas {
+  background: #000000 !important;
+}
+
+/* line 128, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas {
+  margin-left: 17% !important;
+  margin-top: 50px;
+  width: 100% !important;
+}
+/* line 133, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas p {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 137, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas p:first-child {
+  width: 137px;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+  color: #d1d3d4;
+}
+/* line 144, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas p:nth-child(2) {
+  width: 159px;
+}
+/* line 147, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas p:nth-child(3) {
+  width: 147px;
+}
+/* line 150, ../scss/axtel/_slider-paquetes.scss */
+.etiquetas-axtelmegas p:nth-child(4) {
+  width: 145px;
+}
+
+/* line 1, ../scss/axtel/_desktop.scss */
+body {
+  background-color: #414042;
+}
+
+/* line 3, ../scss/axtel/_desktop.scss */
+#botones, #navegacion, #formularios, #elementos {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#botones::after, #navegacion::after, #formularios::after, #elementos::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 5, ../scss/axtel/_desktop.scss */
+#botones h2, #navegacion h2, #formularios h2, #elementos h2 {
+  margin: 24px 0 7px 0;
+  color: #ffffff;
+}
+
+/* line 12, ../scss/axtel/_desktop.scss */
+#botones .primera {
+  display: block;
+  background-color: #ffffff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#botones .primera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 15, ../scss/axtel/_desktop.scss */
+#botones .primera div {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 14.7019570017%;
+  margin-right: 0;
+  width: 20%;
+  padding: 0 0 20px 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .primera div:last-child {
+  margin-right: 0;
+}
+/* line 20, ../scss/axtel/_desktop.scss */
+#botones .primera div:nth-child(3) {
+  background-color: #58595b;
+}
+/* line 23, ../scss/axtel/_desktop.scss */
+#botones .primera div:nth-child(4), #botones .primera div:last-child {
+  background-color: #c42032;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* line 15, ../scss/axtel/_desktop.scss */
+  #botones .primera div {
+    float: left;
+    display: block;
+    margin-right: 4.8291579146%;
+    width: 100%;
+  }
+  /* line 89, ../scss/neat/grid/_span-columns.scss */
+  #botones .primera div:last-child {
+    margin-right: 0;
+  }
+  /* line 28, ../scss/axtel/_desktop.scss */
+  #botones .primera div:nth-child(3) {
+    background-color: cyan;
+  }
+  /* line 31, ../scss/axtel/_desktop.scss */
+  #botones .primera div:nth-child(4), #botones .primera div:last-child {
+    background-color: yellow;
+  }
+}
+/* line 37, ../scss/axtel/_desktop.scss */
+#botones .segunda {
+  display: block;
+  background-color: #ffffff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#botones .segunda::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 41, ../scss/axtel/_desktop.scss */
+#botones .segunda div:first-child, #botones .segunda div:nth-child(2) {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-right: 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .segunda div:first-child:last-child, #botones .segunda div:nth-child(2):last-child {
+  margin-right: 0;
+}
+/* line 45, ../scss/axtel/_desktop.scss */
+#botones .segunda div:last-child {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-right: 0;
+  background-color: #fe8181;
+  width: 53.5%;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .segunda div:last-child:last-child {
+  margin-right: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* line 52, ../scss/axtel/_desktop.scss */
+  #botones .segunda div:first-child, #botones .segunda div:nth-child(2) {
+    float: left;
+    display: block;
+    margin-right: 4.8291579146%;
+    width: 100%;
+  }
+  /* line 89, ../scss/neat/grid/_span-columns.scss */
+  #botones .segunda div:first-child:last-child, #botones .segunda div:nth-child(2):last-child {
+    margin-right: 0;
+  }
+  /* line 55, ../scss/axtel/_desktop.scss */
+  #botones .segunda div:last-child {
+    float: left;
+    display: block;
+    margin-right: 4.8291579146%;
+    width: 100%;
+  }
+  /* line 89, ../scss/neat/grid/_span-columns.scss */
+  #botones .segunda div:last-child:last-child {
+    margin-right: 0;
+  }
+}
+/* line 61, ../scss/axtel/_desktop.scss */
+#botones .tercera {
+  display: block;
+  background-color: #fff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#botones .tercera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 65, ../scss/axtel/_desktop.scss */
+#botones .tercera div:first-child {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 65.8807828007%;
+  margin-right: 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .tercera div:first-child:last-child {
+  margin-right: 0;
+}
+/* line 69, ../scss/axtel/_desktop.scss */
+#botones .tercera div:last-child {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%;
+  margin-right: 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .tercera div:last-child:last-child {
+  margin-right: 0;
+}
+/* line 72, ../scss/axtel/_desktop.scss */
+#botones .tercera div:last-child div {
+  background-color: #414042;
+  padding: 15px;
+  width: 100%;
+}
+/* line 80, ../scss/axtel/_desktop.scss */
+#botones .cuarta {
+  display: block;
+  background-color: #ffffff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#botones .cuarta::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 83, ../scss/axtel/_desktop.scss */
+#botones .cuarta div {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 65.8807828007%;
+  margin-left: 17.0596085997%;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#botones .cuarta div:last-child {
+  margin-right: 0;
+}
+
+/* line 91, ../scss/axtel/_desktop.scss */
+#formularios .primera {
+  display: block;
+  background-color: #ffffff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#formularios .primera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 94, ../scss/axtel/_desktop.scss */
+#formularios .primera .axtel-contentforms {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-right: 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#formularios .primera .axtel-contentforms:last-child {
+  margin-right: 0;
+}
+/* line 98, ../scss/axtel/_desktop.scss */
+#formularios .primera .axtel-contentforms form#formulariomuestra .form-group {
+  float: left;
+}
+/* line 100, ../scss/axtel/_desktop.scss */
+#formularios .primera .axtel-contentforms form#formulariomuestra .form-group div {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#formularios .primera .axtel-contentforms form#formulariomuestra .form-group div:last-child {
+  margin-right: 0;
+}
+/* line 104, ../scss/axtel/_desktop.scss */
+#formularios .primera .axtel-contentforms form#formulariomuestra input[type="submit"] {
+  margin: 0 28%;
+}
+/* line 109, ../scss/axtel/_desktop.scss */
+#formularios .primera .content-elementos {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
+  margin-right: 0;
+  padding: 50px;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#formularios .primera .content-elementos:last-child {
+  margin-right: 0;
+}
+
+/* line 119, ../scss/axtel/_desktop.scss */
+#navegacion .primera {
+  display: block;
+  background-color: green;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#navegacion .primera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 122, ../scss/axtel/_desktop.scss */
+#navegacion .primera div {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 65.8807828007%;
+  margin-left: 17.0596085997%;
+  margin-right: 0;
+  background-color: #ffffff;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#navegacion .primera div:last-child {
+  margin-right: 0;
+}
+/* line 129, ../scss/axtel/_desktop.scss */
+#navegacion .segunda {
+  display: block;
+  background-color: cyan;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#navegacion .segunda::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 132, ../scss/axtel/_desktop.scss */
+#navegacion .segunda div {
+  margin-right: 0;
+}
+/* line 136, ../scss/axtel/_desktop.scss */
+#navegacion .tercera {
+  display: block;
+  background-color: purple;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#navegacion .tercera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 143, ../scss/axtel/_desktop.scss */
+#elementos .primera {
+  display: block;
+  background-color: #ffffff;
+}
+/* line 20, ../scss/bourbon/addons/_clearfix.scss */
+#elementos .primera::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* line 146, ../scss/axtel/_desktop.scss */
+#elementos .primera div {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 65.8807828007%;
+  margin-left: 17.0596085997%;
+  margin-right: 0;
+}
+/* line 89, ../scss/neat/grid/_span-columns.scss */
+#elementos .primera div:last-child {
+  margin-right: 0;
+}

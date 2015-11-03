@@ -1,0 +1,62 @@
+/**** LIST GROUP ****/
+.axtel-list {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 185px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Din", "axteliconos";
+    li {
+        padding: 9px;
+        &:hover {
+            background-color: #848484;
+        }
+    }
+    a {
+        color: #ffffff;
+        &:hover, &:active, &:focus {
+            color: #ffffff;
+        }
+    }
+    //@include estilodelista($whitelist); //$whitelist - $redlist - $yellowlist - $greenlist
+    @include bulletscolores();
+}
+
+.pblanco-icon {
+    &:before {
+        content: pblanco-iconSVG();
+        content: url('../img/elements/puntoblanco-icon.png');
+        position: relative;
+        top: 1px;
+        left: -5px;
+    }
+}
+.projo-icon {
+    &:before {
+        content: projo-iconSVG();
+        content: url('../img/elements/puntorojo-icon.png');
+        position: relative;
+        top: 1px;
+        left: -5px;
+    }
+}
+.pamarillo-icon {
+    &:before {
+        content: pamarillo-iconSVG();
+        content: url('../img/elements/puntoamarillo-icon.png');
+        position: relative;
+        top: 1px;
+        left: -5px;
+    }
+}
+.pverde-icon {
+    &:before {
+        content: pverde-iconSVG();
+        content: url('../img/elements/puntoverde-icon.png');
+        position: relative;
+        top: 1px;
+        left: -5px;
+    }
+}
+
+

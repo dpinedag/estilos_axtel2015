@@ -1,0 +1,188 @@
+
+//@extend-elements
+//original selectors
+//#footer-calidad-ambiental, #footer-pacto-mundial
+%extend_1 {
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+	width: 40px;
+	height: 40px;
+}
+
+
+footer {
+	background-color: #000000;
+	color: #939598;
+	h3 {
+		font-weight: 100;
+	}
+	a {
+		color: #ffffff;
+		&:focus {
+			color: #ffffff;
+		}
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}
+@media screen and(min-width: 48em) {
+	#footer-content {
+		.phone {
+			float: left;
+			display: block;
+			margin-right: 2.1276595745%;
+			width: 48.9361702128%;
+			&:last-child {
+				margin-right: 0;
+			}
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+			&:nth-child(2n + 1) {
+				clear: left;
+			}
+		}
+		h1 {
+			font-size: 4.5em;
+		}
+	}
+}
+.footer-bottom {
+	background: #414042;
+	padding: .5em;
+	width: 100%;
+	display: inline-block;
+	ul {
+		line-height: 1.5em;
+		margin: 0 0 1em;
+		padding: 0;
+		li {
+			list-style: none;
+			padding-right: 1em;
+			text-align: center;
+			a {
+				color: #939598;
+				text-decoration: none;
+				&:focus {
+					color: #ffffff;
+				}
+				&:hover {
+					color: #ffffff;
+				}
+			}
+			span {
+				color: #939598;
+				text-decoration: none;
+				&:focus {
+					color: #ffffff;
+				}
+				&:hover {
+					color: #ffffff;
+				}
+			}
+		}
+	}
+	.footer-secondary-links {
+		text-align: center;
+		li {
+			font-size: .8em;
+		}
+		ul.footer-logos {
+			margin: 1em 0 0;
+			li {
+				font-size: 1em;
+				display: inline-block;
+				vertical-align: middle;
+				line-height: 0;
+				margin: 0;
+				padding-right: .2em;
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+			div {
+				height: 1.6em;
+				opacity: .7;
+				padding: 1px;
+				&:focus {
+					opacity: 1;
+				}
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+@media screen and(min-width: 64em) {
+	.footer-bottom {
+		ul {
+			float: left;
+			line-height: 3.5em;
+			margin-bottom: 0;
+			li {
+				display: inline;
+				text-align: left;
+			}
+		}
+		.footer-secondary-links {
+			float: right;
+			ul.footer-logos {
+				float: right;
+				margin-top: 0;
+			}
+		}
+	}
+}
+#footer-icon {
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+	background-position: -226px 0;
+	width: 72px;
+	height: 72px;
+	text-align: center;
+	margin: -36px auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+#footer-logo1 {
+	background-position: -87px 0;
+	width: 139px;
+	height: 46px;
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+}
+#footer-logo6 {
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+	background-position: 0 -83px;
+	width: 117px;
+	height: 50px;
+}
+#footer-logo3 {
+	background-position: 0 -239px;
+	width: 42px;
+	height: 42px;
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+}
+#footer-logo2 {
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+	background-position: -66px -173px;
+	width: 50px;
+	height: 59px;
+}
+#footer-bolsa-mexicana {
+	background-image: url(http://new.axtel.mx/sites/new.axtel.mx/themes/custom/new_axtel/assets/dist/css/sprite.png);
+	background-position: -258px -173px;
+	width: 40px;
+	height: 40px;
+}
+#footer-calidad-ambiental {
+	background-position: -180px -133px;
+	@extend %extend_1;
+}
+#footer-pacto-mundial {
+	@extend %extend_1;
+	background-position: -140px -133px;
+}
+#footer-content h1 {
+	font-size: 2.25em;
+}

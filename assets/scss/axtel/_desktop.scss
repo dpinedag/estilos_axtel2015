@@ -1,0 +1,152 @@
+body {background-color: $empresas-primarycolor;}
+
+#botones, #navegacion, #formularios, #elementos {
+    @include outer-container;
+    h2 {
+        margin: 24px 0 7px 0;
+        color: #ffffff;
+    }
+}
+
+#botones {
+    .primera {
+        @include row();
+        background-color: #ffffff;
+        div {
+            @include span-columns(2);
+            @include omega;
+            width: 20%;
+            padding: 0 0 20px 0;
+            &:nth-child(3){
+                background-color: $empresas-secondarycolor-a;
+            }
+            &:nth-child(4), &:last-child {
+                background-color: $casa-primarycolor;
+            }
+            @include media(min-width 320px max-width 768px, 6) {
+                @include span-columns(6);
+                &:nth-child(3){
+                background-color: cyan;
+                }
+                &:nth-child(4), &:last-child {
+                    background-color: yellow;
+                }
+            }
+        }
+    }
+    .segunda {
+        @include row();
+        background-color: #ffffff;
+        div {
+            &:first-child, &:nth-child(2){
+                @include span-columns(3);
+                @include omega;
+            }
+            &:last-child {
+                @include span-columns(6);
+                @include omega;
+                background-color: $casa-secondarycolor-f;
+                width: 53.5%;
+            }
+            @include media(min-width 320px max-width 768px, 6) {
+                &:first-child, &:nth-child(2){
+                    @include span-columns(6);
+                }
+                &:last-child {
+                    @include span-columns(6);
+                }
+            }
+        }
+    }
+    .tercera {
+        @include row();
+        background-color: #fff;
+        div {
+            &:first-child {
+                @include span-columns(8);
+                @include omega;
+            }
+            &:last-child {
+                @include span-columns(4);
+                @include omega;
+                div {
+                    background-color: $empresas-primarycolor;
+                    padding: 15px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .cuarta {
+        @include row();
+        background-color: #ffffff;
+        div {
+            @include span-columns(8);
+            @include shift(2);
+        }
+    }
+}
+
+#formularios {
+    .primera {
+        @include row();
+        background-color: #ffffff;
+        .axtel-contentforms {
+            @include span-columns(6);
+            @include omega;
+            form#formulariomuestra {
+                .form-group {
+                    float: left;
+                    div {
+                        @include span-columns(6);
+                    }
+                }
+                input[type="submit"] {
+                    margin: 0 28%;
+                }
+            }
+        }
+        .content-elementos{
+           @include span-columns(6);
+           @include omega;
+           padding: 50px;
+       }
+    }
+}
+
+
+#navegacion {
+    .primera {
+        @include row();
+        background-color: green;
+        div {
+            @include span-columns(8);
+            @include shift(2);
+            @include omega;
+            background-color: #ffffff;
+        }
+    }
+    .segunda {
+        @include row();
+        background-color: cyan;
+        div {
+            @include omega;
+        }
+    }
+    .tercera {
+        @include row();
+        background-color: purple;
+    }
+}
+
+#elementos {
+    .primera {
+        @include row();
+        background-color: #ffffff;
+        div {
+            @include span-columns(8);
+            @include shift(2);
+            @include omega;
+        }
+    }
+}

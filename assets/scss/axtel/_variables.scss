@@ -1,47 +1,104 @@
-// COLORES
-
-/*** VARIABLES ***/
+// Typography
+$base-font-family: 'Lato', sans-serif;
+$heading-font-family: 'Din', sans-serif;
+// Font Sizes
+$base-font-size: em(16);
 $font-size-base:          14px !default;
-//** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
-//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h1: em(72);
+$font-size-h2: em(36);
+$font-size-h3: em(24);
+$font-size-h4: em(18);
+$font-size-h5: em(16);
+$font-size-h6: em(16);
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
 
-$color-body: #262626;
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5 !default;
 
-/***COLORES CASA***/
-$casa-primarycolor: #c42032;
-$casa-secondarycolor-a: #ae2033;
-$casa-secondarycolor-b: #861627;
-$casa-secondarycolor-c: #5b0d00;
-$casa-secondarycolor-d: #b81e2e;
-$casa-secondarycolor-e: #fe5757;
-$casa-secondarycolor-f: #fe8181;
+// Colors
+$black: #000;
+$white: #FFF;
+$red: #C42032;
+$dark-gray: #414042;
+$medium-gray: #808285;
+$light-gray: #D1D3D4;
+$yellow: #FEDD38;
+$light-green: #D6DCCC;
+$light-blue: #DEE7EB;
+$light-yellow: #FFFFEB;
 
-/***COLORES EMPRESAS***/
-$empresas-primarycolor: #414042;
-$empresas-primarycolor-a: #333333;
-$empresas-secondarycolor-a: #58595b;
-$empresas-secondarycolor-b: #6d6e71;
-$empresas-secondarycolor-c: #939598;
-$empresas-secondarycolor-d: #a7a9ac;
-$empresas-secondarycolor-e: #d1d3d4;
-$empresas-secondarycolor-f: #e6e7e8;
-$empresas-secondarycolor-g: #f1f2f2;
+$red-secondary-1: #AE2033;
+$red-secondary-2: #861627;
+$red-secondary-3: #5B0D00;
+$red-secondary-4: #B81E2E;
+$red-secondary-5: #FE5757;
+$red-secondary-6: #FE8181;
+$red-secondary-7: #9D1A28;
+$red-secondary-8: #B01D2D;
+$red-secondary-9: #891623;
 
-/***COLORES NEGOCIOS***/
-$negocios-primarycolor: #808285;
-$negocios-secondarycolor: #fedd38;
+$gray-secondary-1: #333333;
+$gray-secondary-2: #58595B;
+$gray-secondary-3: #6D6E71;
+$gray-secondary-4: #939598;
+$gray-secondary-5: #A7A9AC;
+$gray-secondary-6: #D1D3D4;
+$gray-secondary-7: #E6E7E8;
+$gray-secondary-8: #F1F2F2;
+$gray-secondary-9: #1B1B1D;
 
-/***COLORES GOBIERNO***/
-$gobierno-primarycolor: #d1d3d4;
-$gobierno-secondarycolor-a: #d6dccc;
-$gobierno-secondarycolor-b: #dee7eb;
-$gobierno-secondarycolor-c: #ffffeb;
 
-/***BULLETS-LISTAS***/
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $red;
 
-$whitelist:     url(../img/elements/puntoblanco-icon.png);
-$redlist:       url(../img/elements/puntorojo-icon.png);
-$yellowlist:    url(../img/elements/puntoamarillo-icon.png);
-$greenlist:     url(../img/elements/puntoverde-icon.png);
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+$btn-font-weight: 600!default;
+
+//Routes
+$image-elements-route:'../img/elements/';
+
+//Radius
+$border-radius-base:        60px !default;
+$border-radius-rectangle:        2px !default;
+
+
+$cursor-disabled:                not-allowed !default;
+
+// VARS RESPONSIVO
+$mobilemode: new-breakpoint(min-width 320px max-width 768px);
+$smscreen: new-breakpoint(max-width 480px);
+$mdscreen: new-breakpoint(max-width 568px);
+$mdscreen-2: new-breakpoint(max-width 667px);
+$lgscreen: new-breakpoint(max-width 736px);

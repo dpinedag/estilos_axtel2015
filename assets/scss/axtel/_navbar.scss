@@ -1,7 +1,7 @@
 header.navigation {
 	position: fixed;
 	top: 0;
-	background-color: #ffffff;
+	background-color: $white;
 	min-height: 70px;
 	width: 100%;
 	z-index: 999;
@@ -43,3 +43,48 @@ header.navigation {
 		}
 	}
 }
+
+
+//***MENU EN PASOS***//
+ul.menupasos {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 1px solid $gray-secondary-6;
+	@include border-radius(20px);
+	font-size: .65em;
+	text-transform: uppercase;
+	font-family: "Din";
+	
+	li {
+		display: inline;
+		list-style-type: none;
+		
+		a {
+			display: inline-block;
+			padding: 9px 0 7px;
+			text-align: center;
+			word-spacing: .7em;
+			width: 33.1%;
+			color: $dark-gray;
+			
+			&.activo {
+				background-color: $dark-gray;
+				@include border-radius(20px);
+				color: $white;
+			}
+			
+			@include media(min-width 320px max-width 768px) {
+				width: 32.1%;
+				vertical-align: middle;
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+
+

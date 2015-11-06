@@ -1,0 +1,207 @@
+
+//***BOTONES AXTEL ***//
+button, input[type="submit"],
+input[type="reset"],
+input[type="button"], {
+    @include basebotones-axtel();
+}
+a {
+    &.btn-axtel-secondary, &.btn-axtel-alternative, &.btn-axtel-darkbg,
+    &.btn-axtel-rect, &.btn-axtel-submit, &.btn-axtel-login, &.btn-axtel-pinkbg {
+    @include basebotones-axtel();
+    color: #ffffff;
+    padding-top: 16px;
+    &:before {
+        margin-left: -38px;
+    }
+        &:hover, &:active, &:visited {
+            color: #ffffff;
+        }
+    }
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"], {
+    &.btn-axtel-submit, &.btn-axtel-login, &.btn-axtel-delete {
+    text-align: left;
+    padding-left: 22px;
+    }
+}
+
+// Button colors
+.btn-axtel-main {
+    @include button-variant($black, $yellow, #ffcc00, $light-yellow, $yellow);
+}
+
+.btn-axtel-secondary {
+    @include button-variant($white, $red, $red-secondary-1, $red-secondary-2, none);
+}
+
+.btn-axtel-alternative {
+    @include button-variant($white, $dark-gray, $gray-secondary-3, $dark-gray, $dark-gray);
+}
+
+.btn-axtel-darkbg {
+    @include button-variant($white, $dark-gray, $gray-secondary-3, $dark-gray, #5A595A);
+}
+
+.btn-axtel-redbg {
+    @include button-variant($white, $red-secondary-7, $red-secondary-8, $red-secondary-9, $red-secondary-6);
+}
+
+.btn-axtel-redbgnormal {
+    @include button-variant($black, $white, $red-secondary-6, $red-secondary-5, none);
+}
+
+.btn-axtel-pinkbg {
+    @include button-variant($white, $red-secondary-3, $red-secondary-1, $red-secondary-2, none);
+}
+
+.btn-axtel-download {
+    @include button-variant($black, $red-secondary-5, $red-secondary-5, $red-secondary-5, none);
+    @include button-icon(($image-elements-route)+'axtel-downloadbtn-icon.png', 15px);
+}
+.btn-axtel-submit {
+    @include button-variant($white, $red-secondary-6, $red-secondary-6, $red-secondary-6, none);
+    @include button-icon(($image-elements-route)+'axtel-submitbtn-icon.png', 15px);
+}
+.btn-axtel-login {
+    @include button-variant($black, $yellow, $yellow, $yellow, none);
+    @include button-icon(($image-elements-route)+'axtel-loginbtn-icon.png', 15px);
+}
+.btn-axtel-delete {
+    @include button-variant($white, $gray-secondary-4, $gray-secondary-4, $gray-secondary-4, none);
+    @include button-icon(($image-elements-route)+'axtel-deletebtn-icon.png', 15px);
+}
+
+
+.btn-axtel-plus, .btn-axtel-minus {
+    @include base-circle-buttons();
+}
+
+.btn-axtel-plus {
+    @include button-circle(($image-elements-route)+'axtel-plus-btnsp.png');
+}
+
+.btn-axtel-minus {
+    @include button-circle(($image-elements-route)+'axtel-minus-btnsp.png');
+}
+
+
+
+
+
+
+
+// Button Sizes
+// --------------------------------------------------
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $border-radius-base);
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  @include button-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $border-radius-base);
+}
+.btn-xs {
+  @include button-size($padding-xs-vertical, $padding-xs-horizontal, $font-size-small, $line-height-small, $border-radius-base);
+}
+
+.btn-rectangle{
+    border-radius: $border-radius-rectangle!important;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+// -----------------------------------------------------------
+//***BUTTON BAR***//
+.button-group {
+    width: auto !important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float: left !important;
+    @include border-radius(25px);
+    $large-screen: em(860) !default;
+    font-family: $heading-font-family;
+    font-weight: bold !important;  
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background: $gray-secondary-7;
+    height: 52px;
+    
+    @include media($mobilemode) {
+        width: 100% !important;
+        height: auto;
+    }
+
+    input {
+        display: none;
+    }
+    
+    label {
+        margin-bottom: 0;
+        margin-top: 0;
+        @include media($large-screen) {
+          float: left;
+        }
+        @include media($mobilemode) {
+            float: left;
+            width: 100%;
+        }
+        
+            span {
+            @include border-radius(25px);
+            background: $gray-secondary-7;
+            color: $gray-secondary-5;
+            text-align: center;
+            height: 52px;
+            padding: 18px 30px 0;
+            min-width: 173px;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: bold;
+            @include transition(all 0.3s ease);
+            
+            @include media($mobilemode) {
+                width: 100%;
+                font-size: 90%;
+            }
+            
+            &:hover {
+                background-color: $red-secondary-1;
+                color: #ffffff;
+            }
+        }
+        
+        input:checked + span {
+            background-color: $red-secondary-2;
+            color: #ffffff;
+        }
+    }
+}/* END button-group */
+

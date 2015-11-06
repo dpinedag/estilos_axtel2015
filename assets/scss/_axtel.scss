@@ -1,14 +1,12 @@
 @import 'axtel/variables';
-@import 'axtel/mixins';
 @import 'axtel/fonts';
-@import 'axtel/type';
-@import 'axtel/axtelicons';
-@import 'axtel/botonesaxtel';
+@import 'axtel/typography';
+@import 'axtel/mixins/buttons';//revisar
+@import 'axtel/mixins';//revisar
+@import 'axtel/buttons';//revisar
 @import 'axtel/forms';
 @import 'axtel/listgroups';
-@import 'axtel/fancyselect';
 @import 'axtel/slider-paquetes';
-
-
-
-@import 'axtel/desktop';
+@import 'axtel/navbar';
+@import 'axtel/tabs';
+@import 'axtel/pages/guia';

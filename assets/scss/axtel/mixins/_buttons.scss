@@ -1,0 +1,147 @@
+@mixin basebotones-axtel() {
+  font-family: $heading-font-family;
+  font-size: $base-font-size!important;
+  @include button-size($padding-base-vertical, $padding-base-horizontal, $base-font-size, 1, $border-radius-base);
+  @include transition(all 0.3s ease);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  height: 52px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block; 
+  margin-bottom: 0; // For input.btn
+  vertical-align: middle;
+  touch-action: manipulation;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  white-space: nowrap;
+  user-select: none;
+  &,
+  &:active,
+  &.active {
+    &:focus,
+    &.focus {
+      @include tab-focus;
+    }
+  }
+  &:hover,
+  &:focus,
+  &.focus {
+    text-decoration: none;
+  }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    border: 0;
+    color: $white !important;
+    cursor: not-allowed;
+    background-color: $gray-secondary-4;
+    background-image: url(($image-elements-route)+'axtel-deletebtn.png') !important;
+    &:hover {
+      color: #ffffff !important;
+      background-color: $gray-secondary-4;
+      background-image: url(($image-elements-route)+'axtel-deletebtn.png') !important;
+    }
+  }
+}
+
+@mixin base-circle-buttons() {
+  width: 39px !important;
+  height: 37px !important;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  @include transition(none);
+  padding: 0;
+  &:hover {
+    background-repeat: no-repeat;
+    background-position: 0px -38px;
+  }
+  &:active {
+    background-repeat: no-repeat;
+    background-position: 0px -76px;
+  }
+
+  &:focus, &:active:focus {
+    outline: none;
+  }
+}
+
+@mixin button-variant($font, $normal, $hover, $active, $border) {
+  color: $font;
+  background-color: $normal;
+
+   @if $border != none {
+    border: 1px solid $border;
+   }
+  &:hover {
+    color: $font;
+    background-color: $hover;
+  }
+  &:active {
+    color: $font;
+    background-color: $active; 
+  }
+  &:focus, &:active:focus {
+    outline: none;
+  }
+}
+
+@mixin button-icon($icon, $size) {
+  background-image: url($icon);
+  background-repeat: no-repeat;
+  background-position: 15% 45%; 
+  background-size: $size;
+  &:focus,
+  &.focus,
+  &:hover,
+  &:active,
+  &:focus, &:active:focus {
+    background-image: url($icon);
+    background-repeat: no-repeat;
+    background-position: 15% 45%; 
+    background-size: $size;
+  }
+}
+
+@mixin button-circle($icon) {
+  background-image: url($icon);
+  &:hover {
+    background-image: url($icon);
+  }
+  &:active {
+    background-image: url($icon);
+  }
+}
+
+
+
+
+// Button sizes
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  padding: $padding-vertical $padding-horizontal;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+
+@mixin tab-focus() {
+  // Default
+  outline: thin dotted;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+          box-shadow: $shadow;
+}

@@ -1,0 +1,201 @@
+body {
+    background-color: #262626;
+}
+
+#buttons, #navigation, #forms, #elements {
+    @include outer-container;
+    h2 {
+        margin: 24px 0 7px 0;
+        color: $white;
+    }
+}
+
+#buttons {
+    div.content{
+        @include outer-container;
+        background-color: $white;
+    }
+    .first{
+        @include row();
+        @include span-columns(12);
+        @include padding(10px null null null);
+        .box {
+            @include span-columns(3);
+        }
+    }
+
+    .second{
+        margin-top: 40px;
+        @include row();
+        @include span-columns(12);
+        .box {
+            background-color: $white;
+            @include span-columns(4);
+            @include padding(10px 50px null 50px);
+            height: 200px;
+            &:first-of-type{
+                color: $white;
+                background: $dark-gray;
+            }
+            &:nth-last-of-type(2) {
+                color: $white;
+                background: $red;
+            }
+            &:last-of-type{
+                color: $white;
+                background: $red-secondary-5;
+            }
+        }
+    }
+
+    .third{
+        margin-top: 40px;
+        @include row();
+        @include span-columns(12);
+        .box {
+            background-color: $white;
+            @include span-columns(6);
+            &:last-of-type{
+                color: $white;
+                background: $gray-secondary-9;
+            }
+        }
+    }
+    // BEGIN RESPONSIVO 
+    @include media($mdscreen) {
+        .first {
+            .box {
+                @include span-columns(8);
+                @include shift(2);
+            }
+        }
+        
+        .second {
+            .box {
+                @include span-columns(10);
+                @include shift(1);
+            }
+        }
+        
+        .third {
+            .box {
+                @include span-columns(3);
+                &:last-of-type {
+                    @include span-columns(9);
+                }
+            }
+        }
+    }
+    
+    @include media($mdscreen-2) {
+        .second {
+            .box {
+                @include padding(10px 20px null 20px);
+            }
+        }
+    }// END RESPONSIVO
+}// BUTTONS
+
+#forms {
+    div.content{
+        @include outer-container;
+        @include row();
+        background-color: $white;
+    }
+    .box {
+        @include row();
+        @include span-columns(6);
+        .axtel-contentforms {
+            form#formulariomuestra {
+                .form-group {
+                    float: left;
+                    div {
+                        @include span-columns(6);
+                    }
+                }
+                input[type="submit"] {
+                    margin: 0 28%;
+                }
+                .btnsend {
+                    @include span-columns(5);
+                    @include shift(3);
+                    float: none;
+                }
+            }
+        }
+        &:last-of-type {
+            @include padding(15px 30px 5px null);
+        }
+    }
+    
+    @include media($mdscreen, 6) {
+        .box {
+            .axtel-contentforms {
+                form#formulariomuestra {
+                    .form-group {
+                        div {
+                            @include span-columns(12);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    @include media($mdscreen-2, 6) {
+        .box {
+            @include span-columns(10);
+            @include shift(1);
+        }
+    }
+}// FORMS
+
+
+#navigation {
+    .primera {
+        @include row();
+        div {
+            @include span-columns(12);
+            @include omega;
+            background-color: #ffffff;
+        }
+    }
+    .segunda {
+        @include row();
+        div {
+            @include span-columns(6);
+            @include shift(3);
+            @include omega;
+        }
+    }
+    
+    @include media($mdscreen-2) {
+        .segunda {
+            div {
+                @include span-columns(10);
+                @include shift(1);
+            }
+        }
+    }
+}// NAVIGATION
+
+#elements {
+    .primera {
+        @include row();
+        background-color: #ffffff;
+        div {
+            @include span-columns(8);
+            @include shift(2);
+            @include omega;
+        }
+    }
+    
+    @include media($mdscreen) {
+        .primera {
+            div {
+                @include span-columns(10);
+                @include shift(1);
+            }
+        }
+    }
+}// ELEMENTS

@@ -1,0 +1,125 @@
+.accordion-tabs {
+  $base-border-color: gainsboro !default;
+  $base-border-radius: 8px !default;
+  $base-background-color: #f1f2f2;
+  $base-spacing: 1.5em !default;
+  $action-color: $white !default;
+  $dark-gray: #6c6d71 !default;
+  $light-gray: #DDD !default;
+  $tab-border: 1px solid $base-border-color;
+  $tab-content-background: #f1f2f2;
+  $tab-active-background: $tab-content-background;
+  $tab-inactive-color: $red;
+  $tab-inactive-hover-color: darken($light-gray, 5);
+
+  @include clearfix;
+  line-height: 1.5;
+  margin-bottom: $base-spacing;
+  padding: 0;
+
+  @include media($mobilemode) {
+    border-radius: $base-border-radius;
+  }
+
+  li {
+    list-style: none;
+    display: inline;
+
+    &:first-child .tab-link {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+
+      @include media($mobilemode) {
+        border-top: 0;
+      }
+    }
+
+    &:last-child .tab-link {
+      @include media($mobilemode) {
+        border-top-left-radius: $base-border-radius;
+        border-top-right-radius: $base-border-radius;
+      }
+    }
+  }
+
+  a.tab-link {
+    @include inline-block();
+    background-color: $tab-inactive-color;
+    color: $white;
+    font-weight: bold;
+    padding: $base-spacing/2 $gutter/2;
+    text-decoration: none;
+    width: 32.8%;
+    text-align: center;
+    border-top-left-radius: $base-border-radius;
+    border-top-right-radius: $base-border-radius;
+
+    @include media($mobilemode) {
+        width: 25%;
+        border-top: 0;
+        font-size: .725em;
+      }
+
+    a:hover {
+        background-color: $red-secondary-1;
+        color: $action-color;
+    }
+    
+    &:active {
+        background-color: $red-secondary-2;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      background-color: $tab-active-background;
+      color: $dark-gray;
+
+      @include media($mobilemode) {
+        background-color: $tab-active-background;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .tab-content {
+    background-color: #f1f2f2 !important;
+    display: none !important;
+    padding: $base-spacing $gutter;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+    p {
+      &:first-child {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 36px;
+        margin-bottom: 12px;
+      }
+    }
+
+    @include media($mobilemode) {
+      float: left;
+      
+        p {
+        &:first-child {
+          font-size: 26px;
+          font-weight: bold;
+          line-height: 27px;
+        }
+      }
+    }
+    
+    &.is-open {
+        display: block !important;
+    }
+    
+  }
+}
+
+.header-p {line-height: 120% !important; margin-bottom: 4%;}
+
+
